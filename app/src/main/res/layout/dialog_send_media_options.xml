@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linear_pick_images"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="@dimen/standard_icon_width"
+            android:layout_height="@dimen/standard_icon_width">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_pictures_dark_grey" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/linear_button_height"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:lines="1"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:text="Chọn ảnh có sẵn"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normal_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_pick_videos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="@dimen/standard_icon_width"
+            android:layout_height="@dimen/standard_icon_width">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_video_gallery_filled_dark_grey" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/linear_button_height"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:lines="1"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:text="Chọn video có sẵn"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normal_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_capture_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="@dimen/standard_icon_width"
+            android:layout_height="@dimen/standard_icon_width">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_camera_filled" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/linear_button_height"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:lines="1"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:text="Chụp ảnh mới"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normal_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_record_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="@dimen/standard_icon_width"
+            android:layout_height="@dimen/standard_icon_width">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_video_camera_filled_dark_grey" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/linear_button_height"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:lines="1"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:text="Quay video mới"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normal_text_size" />
+    </LinearLayout>
+
+</LinearLayout>
+

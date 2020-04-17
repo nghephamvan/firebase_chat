@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_loadmore"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/light_grey"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:visibility="gone">
+
+    <ProgressBar
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:indeterminate="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="Đang tải thêm tin nhắn..."
+        android:textColor="@color/dark_grey"
+        android:textSize="@dimen/small_text_size" />
+
+
+</LinearLayout>

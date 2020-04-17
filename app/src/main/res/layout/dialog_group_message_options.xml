@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_options"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/linear_copy"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/linear_button_height"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="@dimen/standard_icon_width"
+            android:layout_height="@dimen/standard_icon_width">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_copy_filled" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:gravity="center_vertical"
+            android:text="Sao chép"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normal_text_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_forward"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/linear_button_height"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="@dimen/standard_icon_width"
+            android:layout_height="@dimen/standard_icon_width">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_forward_filled_dark_grey" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:gravity="center_vertical"
+            android:text="Chuyển tiếp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normal_text_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_edit_message"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/linear_button_height"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="@dimen/standard_icon_width"
+            android:layout_height="@dimen/standard_icon_width">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_edit_message_grey" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:gravity="center_vertical"
+            android:text="Chỉnh sửa"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normal_text_size" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear_download"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/linear_button_height"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="@dimen/standard_icon_width"
+            android:layout_height="@dimen/standard_icon_width">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_download_grey" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:gravity="center_vertical"
+            android:text="Tải về"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normal_text_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_delete"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/linear_button_height"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="@dimen/standard_icon_width"
+            android:layout_height="@dimen/standard_icon_width">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_trash_filled_dark_grey" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:gravity="center_vertical"
+            android:text="Xoá tin nhắn"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normal_text_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_take_back"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/linear_button_height"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="@dimen/standard_icon_width"
+            android:layout_height="@dimen/standard_icon_width">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_take_back" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:gravity="center_vertical"
+            android:text="Thu hồi tin nhắn"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normal_text_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_edit_history"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/linear_button_height"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="@dimen/standard_icon_width"
+            android:layout_height="@dimen/standard_icon_width">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_edit_history" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:gravity="center_vertical"
+            android:text="Xem lịch sử chỉnh sửa"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normal_text_size" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear_related_user"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/linear_button_height"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="@dimen/standard_icon_width"
+            android:layout_height="@dimen/standard_icon_width">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_related_user" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:gravity="center_vertical"
+            android:text="Xem người dùng được nhắc đến"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normal_text_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_message_viewer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/linear_button_height"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="@dimen/standard_icon_width"
+            android:layout_height="@dimen/standard_icon_width">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_message_viewer_filled_black" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:gravity="center_vertical"
+            android:text="Hiển thị người xem"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normal_text_size" />
+
+    </LinearLayout>
+
+</LinearLayout>

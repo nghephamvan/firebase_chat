@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.MyQRCode">
+
+    <include layout="@layout/normal_appbar_layout" />
+
+    <LinearLayout
+        android:id="@+id/layout_no_code"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="25dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="Mã QR giúp người dùng khác đi đến trang cá nhân của bạn một cách nhanh chóng"
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/normal_text_size" />
+
+        <androidx.appcompat.widget.AppCompatButton xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/btn_create_qrcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/big_button_solid_bg"
+            android:fontFamily="sans-serif-medium"
+            android:minHeight="35dp"
+            android:text="Tạo mã"
+            android:textColor="@color/white"
+            android:textSize="@dimen/small_text_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_have_code"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/img_qr_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:minWidth="200dp"
+                android:minHeight="200dp" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/light_grey"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <include layout="@layout/vertical_grey_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/light_grey"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/tv_share_qr"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:minHeight="@dimen/linear_button_height"
+                    android:text="Chia sẻ mã"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="17sp" />
+
+                <FrameLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/black" />
+
+                <TextView
+                    android:id="@+id/tv_save_qr"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:minHeight="@dimen/linear_button_height"
+                    android:text="Lưu mã"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

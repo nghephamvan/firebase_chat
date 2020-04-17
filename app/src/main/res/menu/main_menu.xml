@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/item_conversation"
+        android:icon="@drawable/ic_chat_filled_grey"
+        android:title="Trò chuyện" />
+
+    <item
+        android:id="@+id/item_contact"
+        android:icon="@drawable/ic_friend_filled_grey"
+        android:title="Liên hệ"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/item_make_friend"
+        android:icon="@drawable/ic_mailbox_filled_grey"
+        android:title="Mọi người"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/item_account"
+        android:icon="@drawable/ic_user_filled_grey"
+        android:title="Tài khoản"
+        app:showAsAction="ifRoom" />
+
+</menu>

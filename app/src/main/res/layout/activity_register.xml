@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.Register">
+
+    <include layout="@layout/normal_appbar_layout" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civ_avatar"
+                    android:layout_width="@dimen/avatar_giant"
+                    android:layout_height="@dimen/avatar_giant"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_default_user_avatar" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="@dimen/standard_icon_size"
+                    android:layout_height="@dimen/standard_icon_size"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/ic_camera_circle"
+                    app:civ_border_color="@color/dark_grey"
+                    app:civ_border_width="1dp" />
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/input_frame_bg"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="@dimen/standard_icon_width"
+                        android:layout_height="@dimen/standard_icon_width">
+
+                        <ImageView
+                            android:layout_width="@dimen/standard_icon_size"
+                            android:layout_height="@dimen/standard_icon_size"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_email_unfilled_black" />
+                    </FrameLayout>
+
+
+                    <EditText
+                        android:id="@+id/edt_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/linear_button_height"
+                        android:background="@null"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical"
+                        android:hint="Email"
+                        android:inputType="textEmailAddress"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:text="trungb1509718@student.ctu.edu.vn"
+                        android:paddingStart="7dp"
+                        android:paddingEnd="15dp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/normal_text_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/input_frame_bg"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+                    <FrameLayout
+                        android:layout_width="@dimen/standard_icon_width"
+                        android:layout_height="@dimen/standard_icon_width">
+
+                        <ImageView
+                            android:layout_width="@dimen/standard_icon_size"
+                            android:layout_height="@dimen/standard_icon_size"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_user_unfilled" />
+                    </FrameLayout>
+
+                    <EditText
+                        android:id="@+id/edt_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/linear_button_height"
+                        android:background="@null"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical"
+                        android:text="trung test account"
+                        android:hint="Họ tên"
+                        android:inputType="textPersonName"
+                        android:lines="1"
+                        android:maxLength="25"
+                        android:maxLines="1"
+                        android:paddingStart="7dp"
+                        android:paddingEnd="15dp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/normal_text_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/input_frame_bg"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+                    <FrameLayout
+                        android:layout_width="@dimen/standard_icon_width"
+                        android:layout_height="@dimen/standard_icon_width">
+
+                        <ImageView
+                            android:layout_width="@dimen/standard_icon_size"
+                            android:layout_height="@dimen/standard_icon_size"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_calendar_unfilled" />
+                    </FrameLayout>
+
+
+                    <EditText
+                        android:id="@+id/edt_dateofbirth"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/linear_button_height"
+                        android:background="@null"
+                        android:text="01/01/2010"
+                        android:focusable="false"
+                        android:gravity="center_vertical"
+                        android:hint="Ngày sinh"
+                        android:inputType="text"
+                        android:paddingStart="7dp"
+                        android:paddingEnd="15dp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/normal_text_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/input_frame_bg"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+                    <FrameLayout
+                        android:layout_width="@dimen/standard_icon_width"
+                        android:layout_height="@dimen/standard_icon_width">
+
+                        <ImageView
+                            android:layout_width="@dimen/standard_icon_size"
+                            android:layout_height="@dimen/standard_icon_size"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_gender_unfilled_black" />
+                    </FrameLayout>
+
+
+                    <EditText
+                        android:id="@+id/edt_gender"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/linear_button_height"
+                        android:background="@null"
+                        android:focusable="false"
+                        android:text="Nam"
+                        android:gravity="center_vertical"
+                        android:hint="Giới tính"
+                        android:inputType="text"
+                        android:paddingStart="7dp"
+                        android:paddingEnd="15dp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/normal_text_size" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/input_frame_bg"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+                    <FrameLayout
+                        android:layout_width="@dimen/standard_icon_width"
+                        android:layout_height="@dimen/standard_icon_width">
+
+                        <ImageView
+                            android:layout_width="@dimen/standard_icon_size"
+                            android:layout_height="@dimen/standard_icon_size"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_password_unfilled_black" />
+                    </FrameLayout>
+
+
+                    <EditText
+                        android:id="@+id/edt_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical"
+                        android:hint="Mật khẩu (ít nhất 6 ký tự)"
+                        android:inputType="textPassword"
+                        android:text="123456"
+                        android:lines="1"
+                        android:maxLength="100"
+                        android:maxLines="1"
+                        android:minHeight="@dimen/linear_button_height"
+                        android:paddingStart="7dp"
+                        android:paddingEnd="15dp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/normal_text_size"
+
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/input_frame_bg"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="@dimen/standard_icon_width"
+                        android:layout_height="@dimen/standard_icon_width">
+
+                        <ImageView
+                            android:layout_width="@dimen/standard_icon_size"
+                            android:layout_height="@dimen/standard_icon_size"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_confirm_password" />
+                    </FrameLayout>
+
+
+                    <EditText
+                        android:id="@+id/edt_retype_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:ellipsize="end"
+                        android:text="123456"
+                        android:gravity="center_vertical"
+                        android:hint="Nhập lại mật khẩu"
+                        android:inputType="textPassword"
+                        android:lines="1"
+                        android:maxLength="100"
+                        android:maxLines="1"
+                        android:minHeight="@dimen/linear_button_height"
+                        android:paddingStart="7dp"
+                        android:paddingEnd="15dp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/normal_text_size" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/btn_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/big_button_solid_bg"
+                android:fontFamily="sans-serif-medium"
+                android:text="đăng ký"
+                android:textColor="@color/white"
+                android:textSize="@dimen/small_text_size" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_forward"
+        android:icon="@drawable/ic_forward_filled_white"
+        android:title="Gửi"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/item_download"
+        android:icon="@drawable/ic_download_white"
+        android:title="Tải về"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/item_detail"
+        android:icon="@drawable/ic_infor_unfilled_white"
+        android:title="Chi tiết"
+        app:showAsAction="ifRoom" />
+</menu>

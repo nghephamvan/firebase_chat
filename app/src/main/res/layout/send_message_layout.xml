@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linear_send_messages"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    android:baselineAligned="false"
+    android:gravity="bottom"
+    android:orientation="horizontal"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:weightSum="1">
+
+
+    <FrameLayout
+        android:id="@+id/frame_mms"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:focusable="false">
+
+        <ImageView
+            android:id="@+id/img_gallery"
+            android:layout_width="@dimen/standard_icon_size"
+            android:layout_height="@dimen/standard_icon_size"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_mms_filled_color" />
+
+        <ProgressBar
+            android:id="@+id/pb_sending_media"
+            android:layout_width="@dimen/standard_icon_size"
+            android:layout_height="@dimen/standard_icon_size"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/colorPrimary"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_record_audio"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:focusable="false">
+
+        <ImageView
+            android:id="@+id/img_microphone"
+            android:layout_width="@dimen/standard_icon_size"
+            android:layout_height="@dimen/standard_icon_size"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_voice_message" />
+
+        <ProgressBar
+            android:id="@+id/pb_sending_audio"
+            android:layout_width="@dimen/standard_icon_size"
+            android:layout_height="@dimen/standard_icon_size"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/colorPrimary"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_right_arrow"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="?actionBarItemBackground"
+        android:focusable="false"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_right" />
+    </FrameLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/filled_light_grey_bg"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <androidx.emoji.widget.EmojiAppCompatEditText
+            android:id="@+id/edt_content"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:focusableInTouchMode="true"
+            android:gravity="center_vertical"
+            android:hint="Aa..."
+            android:maxLength="2000"
+            android:paddingStart="15dp"
+            android:paddingTop="7dp"
+            android:paddingEnd="0dp"
+            android:paddingBottom="7dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/normal_text_size"
+            app:layout_constrainedWidth="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/frame_show_emoji"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <FrameLayout
+            android:id="@+id/frame_show_emoji"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+
+            app:layout_constrainedWidth="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
+
+            <ImageView
+
+                android:layout_width="@dimen/standard_icon_size"
+                android:layout_height="@dimen/standard_icon_size"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:src="@drawable/ic_emoji" />
+        </FrameLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_like"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:focusable="false">
+
+        <ImageView
+            android:layout_width="@dimen/standard_icon_size"
+            android:layout_height="@dimen/standard_icon_size"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_like" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_send_messages"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="?actionBarItemBackground"
+        android:focusable="false"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="@dimen/standard_icon_size"
+            android:layout_height="@dimen/standard_icon_size"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_send_message" />
+    </FrameLayout>
+
+
+</LinearLayout>

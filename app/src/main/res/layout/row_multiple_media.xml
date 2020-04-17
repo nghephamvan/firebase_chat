@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/riv_multiple_media"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="1dp"
+        android:adjustViewBounds="true"
+        android:background="@color/light_grey"
+
+        android:scaleType="centerCrop"
+        app:riv_corner_radius="5dp" />
+
+    <ImageView
+        android:id="@+id/img_play_multiple_media"
+        android:layout_width="@dimen/standard_icon_size"
+        android:layout_height="@dimen/standard_icon_size"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_play_video_filled_white"
+
+        />
+</FrameLayout>

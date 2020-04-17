@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nestedscrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:scrollbars="none"
+    tools:context=".Fragments.MakingFriendFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="15dp">
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/linear_sent_requests"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_width="@dimen/standard_icon_width"
+                    android:layout_height="@dimen/standard_icon_size"
+                    android:src="@drawable/ic_sent_request" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/linear_button_height"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="Lời mời đã gửi"
+                    android:textAllCaps="false"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/normal_text_size" />
+
+                <TextView
+                    android:id="@+id/tv_badges_sent_requests"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/sent_requests_badges_bg"
+                    android:gravity="center"
+                    android:minWidth="18dp"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="3dp"
+
+                    android:paddingRight="5dp"
+                    android:paddingBottom="3dp"
+                    android:text="99+"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/badges_text_size"
+                    android:textStyle="bold"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/linear_received_requests"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <ImageView
+                    android:layout_width="@dimen/standard_icon_width"
+                    android:layout_height="@dimen/standard_icon_size"
+                    android:src="@drawable/ic_friend_request_filled_color" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/linear_button_height"
+                    android:layout_weight="10"
+                    android:gravity="center_vertical"
+                    android:text="Lời mời kết bạn"
+                    android:textAllCaps="false"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/normal_text_size" />
+
+                <TextView
+                    android:id="@+id/tv_badges_received_requests"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/badges_bg"
+                    android:gravity="center"
+                    android:minWidth="18dp"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="3dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="3dp"
+                    android:text="99+"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/badges_text_size"
+                    android:textStyle="bold"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center_vertical"
+                android:text="Gợi ý kết bạn"
+                android:textAllCaps="true"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/small_header_text_size"
+
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_suggestions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="false"
+
+            android:scrollbars="none" />
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
+
+
+

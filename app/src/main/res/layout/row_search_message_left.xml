@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:orientation="vertical">
+
+    <!--divider time-->
+
+    <TextView
+        android:id="@+id/tv_time_divider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/time_divider_bg"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:lines="1"
+        android:maxLines="1"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="time divider"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/time_divider_text_size"
+        android:visibility="gone"
+
+
+        />
+
+    <TextView
+        android:id="@+id/tv_send_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="3dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:lines="1"
+        android:linksClickable="true"
+        android:maxLines="1"
+        android:text="time divider"
+        android:textAllCaps="false"
+        android:textColor="@color/grey"
+        android:textSize="12sp"
+        android:visibility="gone"
+
+
+        />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="3dp"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="Trần Quốc Trung"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/time_divider_text_size" />
+
+    <LinearLayout
+        android:id="@+id/linear_message_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="0dp">
+
+        <LinearLayout
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginEnd="5dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/civ_avatar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="80dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <androidx.emoji.widget.EmojiAppCompatTextView
+                    android:id="@+id/tv_message_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:autoLink="all"
+                    android:background="@drawable/left_message_bg"
+                    android:focusable="false"
+                    android:gravity="center_vertical"
+                    android:padding="8dp"
+                    android:text="mess"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textColorLink="@color/black"
+                    android:textIsSelectable="true"
+                    android:textSize="@dimen/normal_text_size" />
+
+                <ImageView
+                    android:id="@+id/img_edited"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginStart="5dp"
+                    android:src="@drawable/ic_edited"
+
+                    />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tv_message_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="3dp"
+                android:ellipsize="end"
+                android:lines="1"
+                android:maxLines="1"
+                android:text="Đang gửi"
+                android:textAllCaps="false"
+                android:textColor="@color/grey"
+                android:textSize="12sp"
+                android:visibility="gone" />
+
+        </LinearLayout>   <!--chứa message type-->
+
+
+    </LinearLayout>  <!--// chứa avatar-->
+
+</LinearLayout>
+

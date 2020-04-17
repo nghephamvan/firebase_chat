@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_alphabet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="@dimen/row_margin_left_right"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:text="M"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/small_header_text_size"
+        android:textStyle="bold" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:baselineAligned="false"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="20dp"
+        android:paddingTop="@dimen/row_margin_top_bottom"
+        android:paddingEnd="24dp"
+        android:paddingBottom="@dimen/row_margin_top_bottom"
+        android:weightSum="1">
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/friend_avatar"
+                android:layout_width="@dimen/avatar_small"
+                android:layout_height="@dimen/avatar_small"
+                android:src="@drawable/ic_default_user_avatar" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/civ_active_dot"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/ic_active_dot"
+                android:visibility="gone"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="2dp"
+                app:layout_anchor="@id/friend_avatar"
+                app:layout_anchorGravity="bottom|right"
+
+
+                />
+
+            <TextView
+                android:id="@+id/tv_offline_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/offline_time_bg"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:lines="1"
+                android:maxLines="1"
+                android:minWidth="30dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:text="30 phút"
+                android:textColor="@color/black"
+                android:textSize="8sp"
+                android:visibility="gone"
+                app:layout_anchor="@id/friend_avatar"
+                app:layout_anchorGravity="bottom|right" />
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="15dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_vertical"
+                android:lines="1"
+                android:maxLines="1"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="@dimen/normal_text_size" />
+
+            <androidx.emoji.widget.EmojiAppCompatTextView
+                android:id="@+id/tv_message_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:lines="1"
+                android:maxLines="1"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="@color/dark_grey"
+                android:textSize="@dimen/small_text_size"
+
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

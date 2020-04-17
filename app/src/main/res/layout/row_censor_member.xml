@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?selectableItemBackground"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="@dimen/row_margin_left_right"
+    android:paddingTop="10dp"
+    android:paddingEnd="15dp"
+    android:paddingBottom="@dimen/row_margin_top_bottom"
+    android:weightSum="10">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/civ_avatar"
+        android:layout_width="@dimen/avatar_small"
+        android:layout_height="@dimen/avatar_small"
+        android:src="@drawable/ic_default_user_avatar" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="15dp"
+        android:layout_weight="10"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center_vertical"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normal_text_size" />
+
+        <TextView
+            android:id="@+id/tv_adder_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:lines="1"
+            android:maxLines="1"
+            android:textAllCaps="false"
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/small_text_size" />
+
+
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_accept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:background="@drawable/small_button_bg"
+        android:focusable="false"
+        android:fontFamily="sans-serif-medium"
+        android:minWidth="60dp"
+        android:minHeight="30dp"
+        android:paddingLeft="5dp"
+
+        android:paddingRight="5dp"
+        android:stateListAnimator="@null"
+        android:text="Cho phép"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/small_text_size" />
+
+
+    <FrameLayout
+        android:id="@+id/frame_deny"
+        android:layout_width="@dimen/standard_icon_width"
+        android:layout_height="@dimen/standard_icon_width"
+        android:layout_marginStart="15dp"
+        android:background="?attr/selectableItemBackground"
+        android:focusable="false">
+
+        <ImageView
+
+            android:layout_width="@dimen/standard_icon_size"
+            android:layout_height="@dimen/standard_icon_size"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_xcross_circle" />
+    </FrameLayout>
+
+</LinearLayout>

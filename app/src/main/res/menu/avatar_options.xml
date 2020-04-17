@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_pick_avatar"
+        android:title="Chọn ảnh" />
+    <item
+        android:id="@+id/item_capture_avatar"
+        android:title="Chụp ảnh mới">
+
+    </item>
+</menu>

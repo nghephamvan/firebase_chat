@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorEdgeEffect">@null</item>
+        <item name="android:windowActivityTransitions">true</item>
+
+    </style>
+
+
+    <style name="NormalToolbarSubtitleAppearance" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/dark_grey</item>
+
+    </style>
+
+
+    <style name="PrimaryBackArrorTheme" parent="@style/ThemeOverlay.MaterialComponents.ActionBar">
+        <item name="colorControlNormal">@color/colorPrimary</item>
+    </style>
+
+    <style name="WhiteBackArrorTheme" parent="@style/ThemeOverlay.MaterialComponents.ActionBar">
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+
+
+    <style name="SpashStyle" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/intro_background</item>
+    </style>
+
+
+</resources>

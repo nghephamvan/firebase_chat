@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Fragments.ConversationFragment">
+
+
+    <LinearLayout
+        android:id="@+id/linear_no_conversation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:text="Cuộc hội thoại mới"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normal_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="30dp"
+            android:gravity="center"
+            android:text="Bạn chưa có cuộc hội hoại nào. Hãy bắt đầu nhắn tin với bạn bè. Nếu chưa có bạn bè bạn có thể tìm kiếm bạn bè bằng cách nhấn vào biểu tượng tìm kiếm hoặc bằng các gợi ý kết bạn."
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/small_text_size" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_conversations"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:nestedScrollingEnabled="false"
+        android:scrollbars="none"
+        android:visibility="gone" />
+
+
+</LinearLayout>
+

@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/appbar"
+    android:background="@color/light_grey"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:scrollbars="none"
+    tools:context=".Fragments.AccountFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--infor-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:weightSum="10">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civ_avatar"
+                    android:layout_width="@dimen/avatar_medium"
+                    android:layout_height="@dimen/avatar_medium"
+                    android:transitionName="avatarTransition" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="10"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/big_text_size"
+                        android:textStyle="bold"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:textColor="@color/dark_grey"
+                        android:textSize="@dimen/normal_text_size"
+
+
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <include layout="@layout/vertical_grey_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <ImageView
+                    android:layout_width="@dimen/standard_icon_width"
+                    android:layout_height="@dimen/standard_icon_size"
+                    android:background="?attr/selectableItemBackground"
+                    android:src="@drawable/ic_status_line_black" />
+
+                <androidx.emoji.widget.EmojiAppCompatTextView
+                    android:id="@+id/tv_message_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:gravity="center_vertical"
+                    android:hint="Bạn đang nghĩ gì ?"
+
+                    android:minHeight="80dp"
+                    android:padding="10dp"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/small_text_size"
+
+
+                    />
+            </LinearLayout>
+
+            <include layout="@layout/vertical_grey_line" />
+        </LinearLayout>
+
+
+        <!--options-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <include layout="@layout/vertical_grey_line" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center_vertical"
+                android:text="Tài khoản"
+
+                android:textColor="@color/grey"
+                android:textSize="@dimen/small_header_text_size"
+                android:textStyle="bold" />
+
+            <!--account options-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/linear_update_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:background="?attr/selectableItemBackground"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:layout_width="@dimen/standard_icon_width"
+                        android:layout_height="@dimen/standard_icon_size"
+                        android:src="@drawable/ic_profile_page_color" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/linear_button_height"
+                        android:gravity="center_vertical"
+                        android:text="Trang cá nhân"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/normal_text_size" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_my_qr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:gravity="center_vertical"
+
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:layout_width="@dimen/standard_icon_width"
+                        android:layout_height="@dimen/standard_icon_size"
+                        android:src="@drawable/ic_qrcode_color" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/linear_button_height"
+                        android:gravity="center_vertical"
+                        android:text="Mã QR của tôi"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/normal_text_size" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_change_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:gravity="center_vertical"
+
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:layout_width="@dimen/standard_icon_width"
+                        android:layout_height="@dimen/standard_icon_size"
+                        android:src="@drawable/ic_password_color" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/linear_button_height"
+                        android:gravity="center_vertical"
+                        android:text="Đổi mật khẩu"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/normal_text_size" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/linear_blocked_users"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:layout_width="@dimen/standard_icon_width"
+                        android:layout_height="@dimen/standard_icon_size"
+                        android:src="@drawable/ic_blocked_user_color" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/linear_button_height"
+                        android:gravity="center_vertical"
+                        android:text="Người dùng đã chặn"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/normal_text_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_logout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:layout_width="@dimen/standard_icon_width"
+                        android:layout_height="@dimen/standard_icon_size"
+                        android:src="@drawable/ic_logout_color" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/linear_button_height"
+                        android:gravity="center_vertical"
+                        android:text="Đăng xuất"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/normal_text_size" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <include layout="@layout/vertical_grey_line" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <!--support options-->
+            <include layout="@layout/vertical_grey_line" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center_vertical"
+                android:text="Hổ trợ"
+
+                android:textColor="@color/grey"
+                android:textSize="@dimen/small_text_size"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/linear_send_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:layout_width="@dimen/standard_icon_width"
+                        android:layout_height="@dimen/standard_icon_size"
+                        android:src="@drawable/ic_email_color" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/linear_button_height"
+                        android:gravity="center_vertical"
+                        android:text="Email hỗ trợ"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/normal_text_size" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_term_of_use"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:layout_width="@dimen/standard_icon_width"
+                        android:layout_height="@dimen/standard_icon_size"
+                        android:src="@drawable/ic_infor_filled_color" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/linear_button_height"
+                        android:gravity="center_vertical"
+                        android:text="Điều khoản sử dụng"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/normal_text_size" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_faq"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:layout_width="@dimen/standard_icon_width"
+                        android:layout_height="@dimen/standard_icon_size"
+                        android:src="@drawable/ic_question_filled_color" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/linear_button_height"
+                        android:gravity="center_vertical"
+                        android:text="Câu hỏi thường gặp"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/normal_text_size" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <include layout="@layout/vertical_grey_line" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>
+

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.asha.nightowllib:nightowllib:0.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4b5cf5c9ebe0eafa7f7d974c9564b0ee/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4b5cf5c9ebe0eafa7f7d974c9564b0ee/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.asha.nightowllib/nightowllib/0.2/af66b21bc28fc683442300d4fae9dbc51dfbc7fc/nightowllib-0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

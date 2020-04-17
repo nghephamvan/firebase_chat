@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/row_margin_left_right"
+    android:paddingTop="@dimen/row_margin_top_bottom"
+    android:paddingRight="@dimen/row_margin_left_right"
+    android:paddingBottom="@dimen/row_margin_top_bottom">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/civ_avatar"
+        android:layout_width="@dimen/avatar_small"
+        android:layout_height="@dimen/avatar_small" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="15dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_vertical"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="@dimen/normal_text_size" />
+
+            <TextView
+                android:id="@+id/tv_gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textAllCaps="false"
+                android:textColor="@color/dark_grey"
+                android:textSize="@dimen/small_text_size" />
+
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/filled_light_grey_bg"
+            android:focusable="false"
+            android:fontFamily="sans-serif-medium"
+            android:minWidth="60dp"
+            android:minHeight="30dp"
+            android:stateListAnimator="@null"
+            android:text="Hủy"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/small_text_size" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

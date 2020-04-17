@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.emoji.widget.EmojiAppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_emoji"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="?attr/selectableItemBackground"
+    android:gravity="center"
+    android:textAllCaps="true"
+    android:textColor="@color/black"
+    android:textSize="25sp"
+    android:textStyle="bold" />

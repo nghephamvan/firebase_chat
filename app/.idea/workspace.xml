@@ -1,0 +1,1981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="BBBB" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
+  <component name="AvailableLibraryUpdateStorage">
+    <last-search-timestamp>1566195010403</last-search-timestamp>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aa048e39-4407-4f3f-b867-28c4bf5af966" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/AddGroupMembers.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/AddGroupMembers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/BaseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/BaseActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/BaseChatActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/BaseChatActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/BlockedUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/BlockedUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/CensorMembers.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/CensorMembers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/Chat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/CreateConversation.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/CreateConversation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/ForwardMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/ForwardMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/FriendsRequests.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/FriendsRequests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/GroupChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/GroupChat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/GroupMembers.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/GroupMembers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/GroupOptionsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/GroupOptionsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/MyProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/MyProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/NoLoginBaseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/NoLoginBaseActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/ResetPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/ResetPassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/SearchHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/SearchHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/SentRequests.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/SentRequests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/SharedMedia.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/SharedMedia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/UpdatePassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/UpdatePassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/UpdateProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/UpdateProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/UpdateStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/UpdateStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/UserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/UserProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/VideoCallScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/VideoCallScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/VideoIncommingCallScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/VideoIncommingCallScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/ViewAllUserFriends.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/ViewAllUserFriends.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/ViewMedia.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/ViewMedia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/VoiceCallScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/VoiceCallScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/VoiceIncommingCallScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/VoiceIncommingCallScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/AddGroupMembers_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/AddGroupMembers_Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/AllUserFriends_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/AllUserFriends_Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/CensorMembers_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/CensorMembers_Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/ForwardMessage_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/ForwardMessage_Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/FriendRequests_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/FriendRequests_Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/GroupMembers_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/GroupMembers_Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/GroupMessages_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/GroupMessages_Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/Messages_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/Messages_Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/MultipleMedia_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/MultipleMedia_Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/PickedUsers_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/PickedUsers_Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/SearchHistory_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/SearchHistory_Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/Search_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/Search_Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/SentRequests_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/SentRequests_Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/SharedMedia_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/SharedMedia_Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/UserFriends_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/UserFriends_Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/UsersToPick_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/UsersToPick_Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/AppUtils/ActiveStatusUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/AppUtils/ActiveStatusUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/AppUtils/AppConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/AppUtils/AppConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/AppUtils/AppIntentKeys.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/AppUtils/AppInterfaces.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/AppUtils/CheckerUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/AppUtils/CheckerUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/AppUtils/GetterUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/AppUtils/GetterUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/AppUtils/GroupActionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/AppUtils/GroupActionUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/AppUtils/PermissionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/AppUtils/PermissionUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/AppUtils/RelationshipUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/AppUtils/RelationshipUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/AppUtils/SettingUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/AppUtils/SharePreferenceUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/AppUtils/SharePreferenceUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/AppUtils/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/AppUtils/StringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/AppUtils/UserActionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/AppUtils/UserActionUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/EmojiFragments/Fragment_Animals_Emoji.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/EmojiFragments/Fragment_Animals_Emoji.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/EmojiFragments/Fragment_Faces_Emoji.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/EmojiFragments/Fragment_Faces_Emoji.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/EmojiFragments/Fragment_Flags_Emoji.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/EmojiFragments/Fragment_Flags_Emoji.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/EmojiFragments/Fragment_Foods_Emoji.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/EmojiFragments/Fragment_Foods_Emoji.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/EmojiFragments/Fragment_Objects_Emoji.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/EmojiFragments/Fragment_Objects_Emoji.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/EmojiFragments/Fragment_Places_Emoji.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/EmojiFragments/Fragment_Places_Emoji.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/EmojiFragments/Fragment_Stickers.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/EmojiFragments/Fragment_Stickers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/EmojiFragments/Fragment_Symbols_Emoji.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/EmojiFragments/Fragment_Symbols_Emoji.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/FragmentAdapters/ActiveFriends_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/FragmentAdapters/ActiveFriends_Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/FragmentAdapters/AllFriends_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/FragmentAdapters/AllFriends_Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/FragmentAdapters/Conversations_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/FragmentAdapters/Conversations_Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/FragmentAdapters/Emoji_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/FragmentAdapters/Emoji_Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/FragmentAdapters/Groups_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/FragmentAdapters/Groups_Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/FragmentAdapters/Quotes_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/FragmentAdapters/Quotes_Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/FragmentAdapters/Sticker_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/FragmentAdapters/Sticker_Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/FragmentAdapters/Suggestions_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/FragmentAdapters/Suggestions_Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Fragments/Fragment_Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Fragments/Fragment_Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Fragments/Fragment_ActiveFriends.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Fragments/Fragment_ActiveFriends.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Fragments/Fragment_AllFriends.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Fragments/Fragment_AllFriends.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Fragments/Fragment_Contacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Fragments/Fragment_Contacts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Fragments/Fragment_Conversations.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Fragments/Fragment_Conversations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Fragments/Fragment_Groups.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Fragments/Fragment_Groups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Fragments/Fragment_People.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Fragments/Fragment_People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Fragments/Fragment_Quotes.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Fragments/Fragment_Quotes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Notification/NormalNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Notification/NormalNotification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Notification/NotificationUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Notification/NotificationUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Notification/OreoNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Notification/OreoNotification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/PagerAdapters/FullScreen_ViewPagerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/PagerAdapters/FullScreen_ViewPagerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/PagerAdapters/Main_PagerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/PagerAdapters/Main_PagerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/SearchFraments/Fragment_Search_Friends.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/SearchFraments/Fragment_Search_Friends.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/SearchFraments/Fragment_Search_Groups.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/SearchFraments/Fragment_Search_Groups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/SearchFraments/Fragment_Search_People.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/SearchFraments/Fragment_Search_People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Services/DownloadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Services/DownloadService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Services/MyFirebaseIdService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Services/MyFirebaseIdService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Services/MyFirebaseMessaging.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Services/MyFirebaseMessaging.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Services/SinchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Services/SinchService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_pen_white.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_pen_white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/normal_appbar_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/normal_appbar_layout.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="myuchat" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Fragments/Fragment_AllFriends.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="134" column="17" selection-start-line="134" selection-start-column="17" selection-end-line="134" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Services/MyFirebaseMessaging.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-453">
+              <caret line="82" column="16" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
+              <folding>
+                <element signature="e#5386#10749#1" />
+                <element signature="e#5872#10730#0" />
+                <element signature="class#6537:7432" />
+                <element signature="method#OnCallBack#0;class#6537:7432" />
+                <element signature="e#6868#7352#1" />
+                <element signature="class#7794:8885" />
+                <element signature="method#OnCallBack#0;class#7794:8885" />
+                <element signature="e#8066#8805#1" />
+                <element signature="e#9008#9231#1" />
+                <element signature="e#9412#10708#1" />
+                <element signature="e#9609#10677#1" />
+                <element signature="class#9961:10641" />
+                <element signature="method#onDataChange#0;class#9961:10641" />
+                <element signature="method#onCancelled#0;class#9961:10641" />
+                <element signature="method#removeMessage#0;class#MyFirebaseMessaging#0" />
+                <element signature="class#11112:11716" />
+                <element signature="method#OnCallBack#0;class#11112:11716" />
+                <element signature="e#11324#11676#1" />
+                <element signature="class#11910:12547" />
+                <element signature="method#onDataChange#0;class#11910:12547" />
+                <element signature="e#12128#12367#1" />
+                <element signature="method#onCancelled#0;class#11910:12547" />
+                <element signature="method#connectToSinch#0;class#MyFirebaseMessaging#0" />
+                <element signature="class#12634:14580" />
+                <element signature="method#onServiceConnected#0;class#12634:14580" />
+                <element signature="e#12815#14259#1" />
+                <element signature="e#12981#14241#1" />
+                <element signature="e#13363#14218#1" />
+                <element signature="e#13426#14192#1" />
+                <element signature="e#13494#14045#1" />
+                <element signature="e#13566#13891#1" />
+                <element signature="method#onServiceDisconnected#0;class#12634:14580" />
+                <element signature="method#relayMessageData#0;class#12634:14580" />
+                <element signature="method#pushNotification#0;class#MyFirebaseMessaging#0" />
+                <element signature="method#markMessageIsReceived#0;class#MyFirebaseMessaging#0" />
+                <element signature="class#15048:16253" />
+                <element signature="method#OnCallBack#0;class#15048:16253" />
+                <element signature="e#15295#16229#1" />
+                <element signature="class#15695:16207" />
+                <element signature="method#onSuccess#0;class#15695:16207" />
+                <element signature="method#getAvatarBitmap#0;class#MyFirebaseMessaging#0" />
+                <element signature="e#16366#18203#0" />
+                <element signature="e#16429#16663#0" />
+                <element signature="e#16684#16805#0" />
+                <element signature="e#16888#17119#0" />
+                <element signature="e#17140#17289#0" />
+                <element signature="e#17374#17609#0" />
+                <element signature="e#17630#17779#0" />
+                <element signature="e#17847#18022#0" />
+                <element signature="e#18043#18192#0" />
+                <element signature="method#sendNotificationOreo#0;class#MyFirebaseMessaging#0" />
+                <element signature="class#18335:19740" />
+                <element signature="method#run#0;class#18335:19740" />
+                <element signature="method#sendNormalNotification#0;class#MyFirebaseMessaging#0" />
+                <element signature="class#19862:21287" />
+                <element signature="method#run#0;class#19862:21287" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/BaseActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1545">
+              <caret line="214" selection-start-line="214" selection-end-line="214" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="301" selection-start-line="301" selection-end-line="301" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-manifest" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/VideoCallScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="686" column="43" selection-start-line="686" selection-start-column="43" selection-end-line="686" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="141" selection-start-line="141" selection-end-line="141" />
+              <folding>
+                <element signature="e#8020#8022#0" />
+                <element signature="e#9792#10144#1" />
+                <element signature="e#10157#11365#0" />
+                <element signature="class#11815:12619" />
+                <element signature="method#onPageScrolled#0;class#11815:12619" />
+                <element signature="method#onPageSelected#0;class#11815:12619" />
+                <element signature="e#12054#12499#0" />
+                <element signature="method#onPageScrollStateChanged#0;class#11815:12619" />
+                <element signature="e#12634#14244#0" />
+                <element signature="class#12712:13024" />
+                <element signature="method#onClick#0;class#12712:13024" />
+                <element signature="class#13070:13370" />
+                <element signature="method#onClick#0;class#13070:13370" />
+                <element signature="class#13416:13585" />
+                <element signature="class#13634:13803" />
+                <element signature="class#13852:14021" />
+                <element signature="class#14066:14235" />
+                <element signature="e#14250#15632#0" />
+                <element signature="class#14415:15563" />
+                <element signature="method#onChildAdded#0;class#14415:15563" />
+                <element signature="method#onChildChanged#0;class#14415:15563" />
+                <element signature="method#onChildRemoved#0;class#14415:15563" />
+                <element signature="method#onChildMoved#0;class#14415:15563" />
+                <element signature="method#onCancelled#0;class#14415:15563" />
+                <element signature="e#15639#18259#0" />
+                <element signature="class#15855:18172" />
+                <element signature="method#onChildAdded#0;class#15855:18172" />
+                <element signature="e#16356#16570#1" />
+                <element signature="method#onChildChanged#0;class#15855:18172" />
+                <element signature="e#16774#16988#1" />
+                <element signature="method#onChildRemoved#0;class#15855:18172" />
+                <element signature="e#17761#17900#1" />
+                <element signature="method#onChildMoved#0;class#15855:18172" />
+                <element signature="method#onCancelled#0;class#15855:18172" />
+                <element signature="e#18265#18453#0" />
+                <element signature="e#18459#20195#0" />
+                <element signature="e#18665#20187#0" />
+                <element signature="class#18829:19163" />
+                <element signature="method#OnCallBack#0;class#18829:19163" />
+                <element signature="e#20201#20902#0" />
+                <element signature="class#20424:20820" />
+                <element signature="method#onDataChange#0;class#20424:20820" />
+                <element signature="method#onCancelled#0;class#20424:20820" />
+                <element signature="e#20908#25852#0" />
+                <element signature="class#21061:25844" />
+                <element signature="method#onDataChange#0;class#21061:25844" />
+                <element signature="e#21265#25706#1" />
+                <element signature="class#21500:25686" />
+                <element signature="method#onDataChange#0;class#21500:25686" />
+                <element signature="e#21773#25448#1" />
+                <element signature="e#21954#23706#1" />
+                <element signature="e#22165#23663#1" />
+                <element signature="class#22854:23613" />
+                <element signature="method#onSuccess#0;class#22854:23613" />
+                <element signature="e#23766#25409#1" />
+                <element signature="e#23977#25365#1" />
+                <element signature="class#24597:25315" />
+                <element signature="method#onSuccess#0;class#24597:25315" />
+                <element signature="method#onCancelled#0;class#21500:25686" />
+                <element signature="method#onCancelled#0;class#21061:25844" />
+                <element signature="e#25947#26206#0" />
+                <element signature="e#26085#26199#1" />
+                <element signature="e#26212#27203#0" />
+                <element signature="class#26585:26920" />
+                <element signature="method#onClick#0;class#26585:26920" />
+                <element signature="class#26971:27169" />
+                <element signature="method#onClick#0;class#26971:27169" />
+                <element signature="e#27209#27447#0" />
+                <element signature="e#27453#27685#0" />
+                <element signature="e#27691#27923#0" />
+                <element signature="e#27929#28161#0" />
+                <element signature="e#28167#28450#0" />
+                <element signature="e#28456#28796#0" />
+                <element signature="e#28604#28790#1" />
+                <element signature="e#28802#29133#0" />
+                <element signature="e#28947#29127#1" />
+                <element signature="e#29139#29280#0" />
+                <element signature="e#29829#30021#0" />
+                <element signature="e#30027#30428#0" />
+                <element signature="e#31163#31439#0" />
+                <element signature="e#31308#31432#1" />
+                <element signature="e#31445#31636#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Notification/OreoNotification.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="268" column="92" selection-start-line="268" selection-start-column="92" selection-end-line="268" selection-end-column="92" />
+              <folding>
+                <element signature="method#OreoNotification#0;class#OreoNotification#0" />
+                <element signature="e#3474#3535#1" />
+                <element signature="method#createChannel#0;class#OreoNotification#0" />
+                <element signature="method#getManager#0;class#OreoNotification#0" />
+                <element signature="method#getBaseBuilder#0;class#OreoNotification#0" />
+                <element signature="method#TypeAcceptFriendRequest#0;class#OreoNotification#0" />
+                <element signature="method#TypeNewFriendRequest#0;class#OreoNotification#0" />
+                <element signature="e#8516#9068#0" />
+                <element signature="method#TypeGroupMessage#0;class#OreoNotification#0" />
+                <element signature="method#TypeMessage#0;class#OreoNotification#0" />
+                <element signature="method#getPendingIntentLike#0;class#OreoNotification#0" />
+                <element signature="method#getPenddingIntentCall#0;class#OreoNotification#0" />
+                <element signature="method#getContentIntent#0;class#OreoNotification#0" />
+                <element signature="e#16023#16183#1" />
+                <element signature="e#16252#16361#1" />
+                <element signature="e#16367#16528#1" />
+                <element signature="method#getPendingIntentAcceptFriendRequest#0;class#OreoNotification#0" />
+                <element signature="method#getPendingIntentDenyFriendRequest#0;class#OreoNotification#0" />
+                <element signature="method#getPenddingIntentMute#0;class#OreoNotification#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Fragments/Fragment_Conversations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="919" column="51" selection-start-line="919" selection-start-column="51" selection-end-line="919" selection-end-column="51" />
+              <folding>
+                <element signature="docComment;class#Fragment_Conversations#0" />
+                <element signature="e#6023#6501#0" />
+                <element signature="class#6138:6478" />
+                <element signature="method#run#0;class#6138:6478" />
+                <element signature="e#6257#6453#1" />
+                <element signature="e#6507#7983#0" />
+                <element signature="class#7226:7854" />
+                <element signature="method#onDataChange#0;class#7226:7854" />
+                <element signature="e#7413#7561#1" />
+                <element signature="e#7567#7715#1" />
+                <element signature="method#onCancelled#0;class#7226:7854" />
+                <element signature="e#7989#8749#0" />
+                <element signature="e#8755#9837#0" />
+                <element signature="class#8852:9472" />
+                <element signature="method#OnItemClick#0;class#8852:9472" />
+                <element signature="e#9074#9199#1" />
+                <element signature="method#OnItemLongClick#0;class#8852:9472" />
+                <element signature="class#9517:9829" />
+                <element signature="method#onClick#0;class#9517:9829" />
+                <element signature="e#9843#11436#0" />
+                <element signature="class#10013:11362" />
+                <element signature="method#onChildAdded#0;class#10013:11362" />
+                <element signature="e#10238#10496#1" />
+                <element signature="e#10350#10478#1" />
+                <element signature="method#onChildChanged#0;class#10013:11362" />
+                <element signature="method#onChildRemoved#0;class#10013:11362" />
+                <element signature="e#10831#11090#1" />
+                <element signature="e#10943#11072#1" />
+                <element signature="method#onChildMoved#0;class#10013:11362" />
+                <element signature="method#onCancelled#0;class#10013:11362" />
+                <element signature="e#11442#16326#0" />
+                <element signature="class#12503:13229" />
+                <element signature="method#onDataChange#0;class#12503:13229" />
+                <element signature="e#12723#12883#1" />
+                <element signature="e#12889#13049#1" />
+                <element signature="method#onCancelled#0;class#12503:13229" />
+                <element signature="e#13287#13454#1" />
+                <element signature="e#13460#14645#1" />
+                <element signature="class#13700:14631" />
+                <element signature="method#onDataChange#0;class#13700:14631" />
+                <element signature="e#13921#14094#1" />
+                <element signature="e#14100#14432#1" />
+                <element signature="method#onCancelled#0;class#13700:14631" />
+                <element signature="class#14698:15945" />
+                <element signature="method#onClick#0;class#14698:15945" />
+                <element signature="e#14822#15879#0" />
+                <element signature="e#16332#17948#0" />
+                <element signature="class#16499:17876" />
+                <element signature="method#onChildAdded#0;class#16499:17876" />
+                <element signature="method#onChildChanged#0;class#16499:17876" />
+                <element signature="method#onChildRemoved#0;class#16499:17876" />
+                <element signature="method#onChildMoved#0;class#16499:17876" />
+                <element signature="method#onCancelled#0;class#16499:17876" />
+                <element signature="e#17954#18923#0" />
+                <element signature="class#18212:18914" />
+                <element signature="method#onDataChange#0;class#18212:18914" />
+                <element signature="e#18430#18736#1" />
+                <element signature="method#onCancelled#0;class#18212:18914" />
+                <element signature="e#18929#20191#0" />
+                <element signature="class#19126:20105" />
+                <element signature="method#onChildAdded#0;class#19126:20105" />
+                <element signature="method#onChildChanged#0;class#19126:20105" />
+                <element signature="method#onChildRemoved#0;class#19126:20105" />
+                <element signature="method#onChildMoved#0;class#19126:20105" />
+                <element signature="method#onCancelled#0;class#19126:20105" />
+                <element signature="e#20197#20988#0" />
+                <element signature="e#20327#20982#1" />
+                <element signature="e#20420#20971#1" />
+                <element signature="e#20786#20932#1" />
+                <element signature="e#20994#21862#0" />
+                <element signature="e#21101#21791#1" />
+                <element signature="class#21151:21778" />
+                <element signature="method#CallBack#0;class#21151:21778" />
+                <element signature="e#21356#21746#1" />
+                <element signature="e#21429#21603#1" />
+                <element signature="e#21868#24957#0" />
+                <element signature="class#22006:24948" />
+                <element signature="method#OnCallBack#0;class#22006:24948" />
+                <element signature="e#22195#23900#0" />
+                <element signature="e#24177#24422#1" />
+                <element signature="e#24782#24891#1" />
+                <element signature="e#24963#26473#0" />
+                <element signature="class#25264:26465" />
+                <element signature="method#OnCallBack#0;class#25264:26465" />
+                <element signature="e#25696#25941#1" />
+                <element signature="e#26299#26408#1" />
+                <element signature="e#26479#27958#0" />
+                <element signature="class#26750:27950" />
+                <element signature="method#OnCallBack#0;class#26750:27950" />
+                <element signature="e#27181#27426#1" />
+                <element signature="e#27784#27893#1" />
+                <element signature="e#27965#28722#0" />
+                <element signature="e#28119#28716#1" />
+                <element signature="e#28212#28705#1" />
+                <element signature="e#28312#28595#1" />
+                <element signature="e#28388#28503#1" />
+                <element signature="e#28729#30586#0" />
+                <element signature="e#28859#30526#0" />
+                <element signature="e#30592#31009#0" />
+                <element signature="class#30747:31000" />
+                <element signature="method#OnCallBack#0;class#30747:31000" />
+                <element signature="e#31015#31415#0" />
+                <element signature="class#31160:31407" />
+                <element signature="method#OnCallBack#0;class#31160:31407" />
+                <element signature="e#31422#31782#0" />
+                <element signature="e#31550#31751#1" />
+                <element signature="e#31699#31741#1" />
+                <element signature="e#31788#32084#0" />
+                <element signature="e#32595#34095#0" />
+                <element signature="e#32731#34089#1" />
+                <element signature="e#32781#34078#1" />
+                <element signature="e#32991#34064#1" />
+                <element signature="e#33169#33426#1" />
+                <element signature="e#33578#33606#0" />
+                <element signature="e#33929#34046#1" />
+                <element signature="e#34101#35600#0" />
+                <element signature="class#34548:35316" />
+                <element signature="method#onClick#0;class#34548:35316" />
+                <element signature="class#35367:35565" />
+                <element signature="method#onClick#0;class#35367:35565" />
+                <element signature="e#35648#36090#0" />
+                <element signature="e#35789#36084#1" />
+                <element signature="e#35960#36074#1" />
+                <element signature="e#36096#36617#0" />
+                <element signature="e#36231#36610#1" />
+                <element signature="e#36411#36600#1" />
+                <element signature="e#36623#37127#0" />
+                <element signature="e#36753#37120#1" />
+                <element signature="e#36927#37110#1" />
+                <element signature="e#37133#37289#0" />
+                <element signature="e#37295#37866#0" />
+                <element signature="e#37872#43503#0" />
+                <element signature="class#38105:43494" />
+                <element signature="method#OnCallBack#0;class#38105:43494" />
+                <element signature="e#38287#43468#0" />
+                <element signature="class#38750:39178" />
+                <element signature="method#OnCallBack#0;class#38750:39178" />
+                <element signature="class#39509:39932" />
+                <element signature="method#OnCallBack#0;class#39509:39932" />
+                <element signature="class#40497:40932" />
+                <element signature="method#OnCallBack#0;class#40497:40932" />
+                <element signature="class#41409:41848" />
+                <element signature="method#OnCallBack#0;class#41409:41848" />
+                <element signature="class#42337:42796" />
+                <element signature="method#OnCallBack#0;class#42337:42796" />
+                <element signature="e#43509#47152#0" />
+                <element signature="e#43718#47145#0" />
+                <element signature="class#43958:44306" />
+                <element signature="method#OnCallBack#0;class#43958:44306" />
+                <element signature="class#44594:44999" />
+                <element signature="method#OnCallBack#0;class#44594:44999" />
+                <element signature="class#45244:45601" />
+                <element signature="method#OnCallBack#0;class#45244:45601" />
+                <element signature="class#45816:46217" />
+                <element signature="method#OnCallBack#0;class#45816:46217" />
+                <element signature="class#46439:46842" />
+                <element signature="method#OnCallBack#0;class#46439:46842" />
+                <element signature="e#47158#47255#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Notification/NormalNotification.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1411">
+              <caret line="240" selection-start-line="240" selection-end-line="240" />
+              <folding>
+                <element signature="method#NormalNotification#0;class#NormalNotification#0" />
+                <element signature="method#getManager#0;class#NormalNotification#0" />
+                <element signature="method#getBaseBuilder#0;class#NormalNotification#0" />
+                <element signature="method#TypeAcceptFriendRequest#0;class#NormalNotification#0" />
+                <element signature="method#TypeNewFriendRequest#0;class#NormalNotification#0" />
+                <element signature="e#7667#8217#0" />
+                <element signature="method#TypeGroupMessage#0;class#NormalNotification#0" />
+                <element signature="method#TypeMessage#0;class#NormalNotification#0" />
+                <element signature="method#getPendingIntentLike#0;class#NormalNotification#0" />
+                <element signature="method#getPenddingIntentCall#0;class#NormalNotification#0" />
+                <element signature="method#getContentIntent#0;class#NormalNotification#0" />
+                <element signature="e#15297#15457#1" />
+                <element signature="e#15526#15635#1" />
+                <element signature="e#15641#15802#1" />
+                <element signature="method#getPendingIntentAcceptFriendRequest#0;class#NormalNotification#0" />
+                <element signature="method#getPendingIntentDenyFriendRequest#0;class#NormalNotification#0" />
+                <element signature="method#getPendingIntentMute#0;class#NormalNotification#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Notification/NotificationUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-104">
+              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+        <option value="resourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mGroupProfile</find>
+      <find>mContext.getGroupDetail()</find>
+      <find>GroupInfor</find>
+      <find>GroupProfile</find>
+      <find>btn_de</find>
+      <find>CHILD_MESSAGES</find>
+      <find>vp_locked</find>
+      <find>app_logo</find>
+      <find>mUserProfile</find>
+      <find>infor</find>
+      <find>updateChattingUserId</find>
+      <find>active_sta</find>
+      <find>ACTI</find>
+      <find>Active</find>
+      <find>Active Status</find>
+      <find>onchildre</find>
+      <find>onitemc</find>
+      <find>goto</find>
+      <find>Xem tin nhắn</find>
+      <find>setT</find>
+      <find>mUserProfile.getUserId()</find>
+      <find>mGroupId</find>
+      <find>contentIntent</find>
+      <find>ContentIntent</find>
+      <find>contentIntent</find>
+      <find>.Builder</find>
+      <find>sendNoti</find>
+      <find>NotificationCompat.</find>
+      <find>AppInterfaces</find>
+      <find>new AppInterfaces</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>?attr/selectableItemBackground</replace>
+      <replace>mUserProfile.getUserId()</replace>
+      <replace>mChattingUserProfile.getUserId()</replace>
+      <replace>android:layout_marginRight=&quot;100dp&quot;</replace>
+      <replace>mProfileQuery</replace>
+      <replace>mSentRequestQuery</replace>
+      <replace>mHistoryQuery</replace>
+      <replace>mGroupQuery</replace>
+      <replace>mFriendQuery</replace>
+      <replace>mC</replace>
+      <replace>mContext</replace>
+      <replace>CardView</replace>
+      <replace>center_horizontal</replace>
+      <replace>.getRelatedUserId()</replace>
+      <replace>firebaseCallBackMessageContent.OnCallBack</replace>
+      <replace>messageId</replace>
+      <replace>updatedMessage</replace>
+      <replace>linear_lock</replace>
+      <replace>protected</replace>
+      <replace>mCalleeId</replace>
+      <replace>mConversationsList.add( conversation);</replace>
+      <replace>mGroupProfile.getGroupId()</replace>
+      <replace>mGroupId</replace>
+      <replace>mGroupDetail</replace>
+      <replace>app_logo_small</replace>
+      <replace>userId</replace>
+      <replace>Trả lời</replace>
+      <replace>groupId</replace>
+      <replace>AppConstants.AppInterfaces</replace>
+      <replace>new AppConstants.AppInterfaces</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/UpdateProfile.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/UserFriends_Adapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/VideoIncommingCallScreen.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/AllUserFriends_Adapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/VoiceCallScreen.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/EmojiFragments/Fragment_Animals_Emoji.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/FragmentAdapters/Emoji_Adapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/EmojiFragments/Fragment_Flags_Emoji.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/EmojiFragments/Fragment_Objects_Emoji.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/EmojiFragments/Fragment_Stickers.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/FragmentAdapters/Sticker_Adapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/FragmentAdapters/Quotes_Adapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/GroupMessages_Adapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Fragments/Fragment_AllFriends.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Fragments/Fragment_Groups.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/FragmentAdapters/AllFriends_Adapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/FragmentAdapters/Conversations_Adapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/SearchFraments/Fragment_Search_Friends.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/ViewAllUserFriends.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/VoiceIncommingCallScreen.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/EmojiFragments/Fragment_Symbols_Emoji.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/EmojiFragments/Fragment_Foods_Emoji.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/FragmentAdapters/Groups_Adapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/Search.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/VideoCallScreen.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/EmojiFragments/Fragment_Places_Emoji.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/ViewMedia.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/EmojiFragments/Fragment_Faces_Emoji.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Fragments/Fragment_Quotes.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/AppUtils/GroupActionUtils.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/Messages_Adapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/MyProfile.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/normal_appbar_layout.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/AppUtils/AppConstants.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/AppUtils/SettingUtils.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/AppUtils/UserActionUtils.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Services/SendNotificationActionData.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/Chat.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/GroupOptionsPage.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/UserProfile.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/PagerAdapters/Main_PagerAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_my_profile.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Fragments/Fragment_Contacts.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Fragments/Fragment_Conversations.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Notification/OreoNotification.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Notification/NormalNotification.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/BaseActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Services/MyFirebaseMessaging.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="768" />
+    <option name="height" value="723" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="myuchat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myuchat" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="myuchat" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="myuchat" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
+            </path>
+            <path>
+              <item name="myuchat" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="myuchat" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="uchat" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myuchat" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="uchat" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="Activities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myuchat" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="uchat" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="ActivityAdapters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myuchat" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="uchat" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="AppUtils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myuchat" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="uchat" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="CustomClasses" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myuchat" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="uchat" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="EmojiFragments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myuchat" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="uchat" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="FragmentAdapters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myuchat" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="uchat" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="Fragments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myuchat" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="uchat" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="Notification" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myuchat" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="uchat" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="SearchFraments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myuchat" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="uchat" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="Services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myuchat" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="myuchat" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="myuchat" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="device.picker.selection" value="JUC4C18818013379" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="D:/Flutter/trippal" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.tranquoctrungcntt.uchat.FragmentAdapters" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Android\ANDROID PROJECT\myuchat\app\src\main\res\drawable" />
+      <recent name="D:\Android\ANDROID PROJECT\myuchat\app\src\main\res\drawable-v24" />
+      <recent name="D:\Android\ANDROID PROJECT\myuchat\app\src\main\res\raw" />
+      <recent name="D:\Android\ANDROID PROJECT\myuchat\app\src\main\res\layout" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa048e39-4407-4f3f-b867-28c4bf5af966" name="Default Changelist" comment="" />
+      <created>1564147722148</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564147722148</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2526475" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.95090014" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="TODO" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Logcat" order="3" sideWeight="0.49621785" visible="true" weight="0.46644846" />
+      <window_info anchor="bottom" id="Android Profiler" order="4" />
+      <window_info anchor="bottom" id="Debug" order="5" />
+      <window_info anchor="bottom" id="Terminal" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50378215" side_tool="true" weight="0.46644846" />
+      <window_info anchor="bottom" id="Flutter Performance" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
+      <window_info anchor="bottom" id="Build" order="10" sideWeight="0.4977307" weight="0.3289689" />
+      <window_info anchor="bottom" id="Find" order="11" weight="0.3289689" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Flutter Outline" order="2" weight="0.32980332" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Flutter Inspector" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Preview" order="6" weight="0.23373677" />
+      <window_info anchor="right" id="Gradle" order="7" weight="0.32980332" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.31013617" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.95090014" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="TODO" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Logcat" order="3" sideWeight="0.4977307" visible="true" weight="0.46317512" />
+      <window_info anchor="bottom" id="Android Profiler" order="4" />
+      <window_info anchor="bottom" id="Debug" order="5" />
+      <window_info anchor="bottom" id="Terminal" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50226927" side_tool="true" weight="0.46317512" />
+      <window_info anchor="bottom" id="Flutter Performance" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
+      <window_info anchor="bottom" id="Build" order="10" sideWeight="0.4977307" weight="0.3289689" />
+      <window_info anchor="bottom" id="Find" order="11" weight="0.3289689" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Flutter Outline" order="2" weight="0.32980332" />
+      <window_info anchor="right" id="Gradle" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Flutter Inspector" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Preview" order="7" weight="0.23373677" />
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/GroupMessages_Adapter.java</url>
+          <line>958</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Fragments/Fragment_People.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/GroupChat.java</url>
+          <line>774</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/Chat.java</url>
+          <line>1157</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Notification/NotificationUtils.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Notification/NotificationUtils.java</url>
+          <line>68</line>
+          <properties class="com.example.tranquoctrungcntt.uchat.Notification.NotificationUtils">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/VoiceCallScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="385" column="65" selection-start-line="385" selection-start-column="65" selection-end-line="385" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/EmojiFragments/Fragment_Animals_Emoji.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/EmojiFragments/Fragment_Flags_Emoji.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-230">
+          <caret line="48" column="64" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/EmojiFragments/Fragment_Objects_Emoji.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/EmojiFragments/Fragment_Stickers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/FragmentAdapters/Emoji_Adapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/FragmentAdapters/Quotes_Adapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="50" column="64" selection-start-line="50" selection-start-column="64" selection-end-line="50" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/FragmentAdapters/Sticker_Adapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/GroupMessages_Adapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="2286" selection-start-line="2286" selection-end-line="2286" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Fragments/Fragment_Groups.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-570">
+          <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/FragmentAdapters/AllFriends_Adapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-298">
+          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/FragmentAdapters/Conversations_Adapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/SearchFraments/Fragment_Search_Friends.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="133" column="98" selection-start-line="133" selection-start-column="98" selection-end-line="133" selection-end-column="98" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/ViewAllUserFriends.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="205" column="61" selection-start-line="205" selection-start-column="61" selection-end-line="205" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/VoiceIncommingCallScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="294" column="51" selection-start-line="294" selection-start-column="51" selection-end-line="294" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/EmojiFragments/Fragment_Symbols_Emoji.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/EmojiFragments/Fragment_Foods_Emoji.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/FragmentAdapters/Groups_Adapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/Search.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="405" column="86" selection-start-line="405" selection-start-column="86" selection-end-line="405" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/ViewMedia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="361" column="82" selection-start-line="361" selection-start-column="82" selection-end-line="361" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/EmojiFragments/Fragment_Places_Emoji.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/EmojiFragments/Fragment_Faces_Emoji.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="47" column="66" selection-start-line="47" selection-start-column="66" selection-end-line="47" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Fragments/Fragment_Quotes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-213">
+          <caret line="48" column="62" selection-start-line="48" selection-start-column="62" selection-end-line="48" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/AppUtils/GroupActionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="352" column="67" selection-start-line="352" selection-start-column="67" selection-end-line="352" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_user_profile.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/ActivityAdapters/Messages_Adapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="863" column="55" selection-start-line="863" selection-start-column="55" selection-end-line="863" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/MyProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/normal_appbar_layout.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="24" selection-end-column="45" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="60" column="65" selection-start-line="60" selection-start-column="65" selection-end-line="60" selection-end-column="65" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/AppUtils/AppConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="281" column="99" selection-start-line="281" selection-start-column="99" selection-end-line="281" selection-end-column="99" />
+          <folding>
+            <element signature="class#PermissionConstant#0;class#AppConstants#0" />
+            <element signature="class#MediaType#0;class#AppConstants#0" />
+            <element signature="class#MessageStatus#0;class#AppConstants#0" />
+            <element signature="class#NotificationType#0;class#AppConstants#0" />
+            <element signature="class#StringConstant#0;class#AppConstants#0" />
+            <element signature="class#DatabaseNode#0;class#AppConstants#0" />
+            <element signature="class#DatabaseStorageNode#0;class#AppConstants#0" />
+            <element signature="class#NumberConstant#0;class#AppConstants#0" />
+            <element signature="class#MessageType#0;class#AppConstants#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/AppUtils/SettingUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Services/SendNotificationActionData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="107" column="25" selection-start-line="107" selection-start-column="25" selection-end-line="107" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#sendTextMessage#0;class#SendNotificationActionData#0" />
+            <element signature="method#sendGroupTextMessage#0;class#SendNotificationActionData#0" />
+            <element signature="method#denyFriendRequest#0;class#SendNotificationActionData#0" />
+            <element signature="method#acceptFriendRequest#0;class#SendNotificationActionData#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/AppUtils/UserActionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="502" column="29" selection-start-line="502" selection-start-column="29" selection-end-line="502" selection-end-column="29" />
+          <folding>
+            <element signature="method#makeCall#0;class#UserActionUtils#0" />
+            <element signature="e#5464#7259#1" />
+            <element signature="class#5630:7245" />
+            <element signature="method#onDataChange#0;class#5630:7245" />
+            <element signature="e#5934#6074#1" />
+            <element signature="e#6121#6924#1" />
+            <element signature="e#6173#6530#1" />
+            <element signature="e#6536#6893#1" />
+            <element signature="method#onCancelled#0;class#5630:7245" />
+            <element signature="method#goToChat#0;class#UserActionUtils#0" />
+            <element signature="method#goToGroupChat#0;class#UserActionUtils#0" />
+            <element signature="method#startDownloadingMedia#0;class#UserActionUtils#0" />
+            <element signature="method#forwardSingleMedia#0;class#UserActionUtils#0" />
+            <element signature="method#forwardGroupMedia#0;class#UserActionUtils#0" />
+            <element signature="method#forwardSingleMessage#0;class#UserActionUtils#0" />
+            <element signature="method#forwardGroupMessage#0;class#UserActionUtils#0" />
+            <element signature="method#openWebBrowser#0;class#UserActionUtils#0" />
+            <element signature="method#sendEmail#0;class#UserActionUtils#0" />
+            <element signature="method#openMap#0;class#UserActionUtils#0" />
+            <element signature="method#keepSyncAll#0;class#UserActionUtils#0" />
+            <element signature="method#hideKeyboard#0;class#UserActionUtils#0" />
+            <element signature="method#showKeyboard#0;class#UserActionUtils#0" />
+            <element signature="method#showLongToast#0;class#UserActionUtils#0" />
+            <element signature="method#showShortToast#0;class#UserActionUtils#0" />
+            <element signature="method#showMessageDialog#0;class#UserActionUtils#0" />
+            <element signature="class#13993:14198" />
+            <element signature="method#onClick#0;class#13993:14198" />
+            <element signature="method#viewUserProfile#0;class#UserActionUtils#0" />
+            <element signature="method#viewGroupDetail#0;class#UserActionUtils#0" />
+            <element signature="method#viewAvatar#0;class#UserActionUtils#0" />
+            <element signature="e#15154#17104#1" />
+            <element signature="class#15761:15941" />
+            <element signature="e#16085#16086#0" expanded="true" />
+            <element signature="e#16152#16153#0" expanded="true" />
+            <element signature="class#16088:17034" />
+            <element signature="method#onLoadFailed#0;class#16088:17034" />
+            <element signature="method#onResourceReady#0;class#16088:17034" />
+            <element signature="method#setUrlToView#0;class#UserActionUtils#0" />
+            <element signature="method#getGlideBuilder#0;class#UserActionUtils#0" />
+            <element signature="method#setUserProfilePicture#0;class#UserActionUtils#0" />
+            <element signature="method#setGroupAvatarToView#0;class#UserActionUtils#0" />
+            <element signature="method#viewThisSingleUserMedia#0;class#UserActionUtils#0" />
+            <element signature="method#viewThisGroupMedia#0;class#UserActionUtils#0" />
+            <element signature="method#disableChangeAnimation#0;class#UserActionUtils#0" />
+            <element signature="method#clickLinkInContent#0;class#UserActionUtils#0" />
+            <element signature="e#19330#21994#0" />
+            <element signature="e#19396#21707#1" />
+            <element signature="class#19652:21640" />
+            <element signature="method#onMenuItemClick#0;class#19652:21640" />
+            <element signature="e#19863#21537#0" />
+            <element signature="method#allowNotifyMe#0;class#UserActionUtils#0" />
+            <element signature="method#preventMakeGroup#0;class#UserActionUtils#0" />
+            <element signature="method#allowMakeGroup#0;class#UserActionUtils#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/Chat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="117" column="49" selection-start-line="117" selection-start-column="49" selection-end-line="117" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/GroupOptionsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="92" column="77" selection-start-line="92" selection-start-column="77" selection-end-line="92" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/UserProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="70" column="54" selection-start-line="70" selection-start-column="54" selection-end-line="70" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_my_profile.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="47" column="45" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/PagerAdapters/Main_PagerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-493">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/AppUtils/GetterUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="156" selection-start-line="156" selection-end-line="156" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Fragments/Fragment_ActiveFriends.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="103" column="27" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Fragments/Fragment_Contacts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="169" column="23" selection-start-line="169" selection-start-column="23" selection-end-line="169" selection-end-column="23" />
+          <folding>
+            <element signature="docComment;class#Fragment_Contacts#0" />
+            <element signature="method#Fragment_Contacts#0;class#Fragment_Contacts#0" />
+            <element signature="method#onCreateView#0;class#Fragment_Contacts#0" />
+            <element signature="method#initClickEvents#0;class#Fragment_Contacts#0" />
+            <element signature="class#1781:1945" />
+            <element signature="e#1868#1869#0" expanded="true" />
+            <element signature="e#1934#1935#0" expanded="true" />
+            <element signature="class#2002:2166" />
+            <element signature="e#2089#2090#0" expanded="true" />
+            <element signature="e#2155#2156#0" expanded="true" />
+            <element signature="class#2215:2379" />
+            <element signature="e#2302#2303#0" expanded="true" />
+            <element signature="e#2368#2369#0" expanded="true" />
+            <element signature="method#initViews#0;class#Fragment_Contacts#0" />
+            <element signature="class#3081:3781" />
+            <element signature="method#onPageScrolled#0;class#3081:3781" />
+            <element signature="method#onPageSelected#0;class#3081:3781" />
+            <element signature="e#3322#3659#0" />
+            <element signature="method#onPageScrollStateChanged#0;class#3081:3781" />
+            <element signature="method#selectTabGroups#0;class#Fragment_Contacts#0" />
+            <element signature="method#selectTabActiveFriends#0;class#Fragment_Contacts#0" />
+            <element signature="e#5807#5868#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Fragments/Fragment_AllFriends.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="134" column="17" selection-start-line="134" selection-start-column="17" selection-end-line="134" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Notification/NotificationUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-104">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Fragments/Fragment_Conversations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="919" column="51" selection-start-line="919" selection-start-column="51" selection-end-line="919" selection-end-column="51" />
+          <folding>
+            <element signature="docComment;class#Fragment_Conversations#0" />
+            <element signature="e#6023#6501#0" />
+            <element signature="class#6138:6478" />
+            <element signature="method#run#0;class#6138:6478" />
+            <element signature="e#6257#6453#1" />
+            <element signature="e#6507#7983#0" />
+            <element signature="class#7226:7854" />
+            <element signature="method#onDataChange#0;class#7226:7854" />
+            <element signature="e#7413#7561#1" />
+            <element signature="e#7567#7715#1" />
+            <element signature="method#onCancelled#0;class#7226:7854" />
+            <element signature="e#7989#8749#0" />
+            <element signature="e#8755#9837#0" />
+            <element signature="class#8852:9472" />
+            <element signature="method#OnItemClick#0;class#8852:9472" />
+            <element signature="e#9074#9199#1" />
+            <element signature="method#OnItemLongClick#0;class#8852:9472" />
+            <element signature="class#9517:9829" />
+            <element signature="method#onClick#0;class#9517:9829" />
+            <element signature="e#9843#11436#0" />
+            <element signature="class#10013:11362" />
+            <element signature="method#onChildAdded#0;class#10013:11362" />
+            <element signature="e#10238#10496#1" />
+            <element signature="e#10350#10478#1" />
+            <element signature="method#onChildChanged#0;class#10013:11362" />
+            <element signature="method#onChildRemoved#0;class#10013:11362" />
+            <element signature="e#10831#11090#1" />
+            <element signature="e#10943#11072#1" />
+            <element signature="method#onChildMoved#0;class#10013:11362" />
+            <element signature="method#onCancelled#0;class#10013:11362" />
+            <element signature="e#11442#16326#0" />
+            <element signature="class#12503:13229" />
+            <element signature="method#onDataChange#0;class#12503:13229" />
+            <element signature="e#12723#12883#1" />
+            <element signature="e#12889#13049#1" />
+            <element signature="method#onCancelled#0;class#12503:13229" />
+            <element signature="e#13287#13454#1" />
+            <element signature="e#13460#14645#1" />
+            <element signature="class#13700:14631" />
+            <element signature="method#onDataChange#0;class#13700:14631" />
+            <element signature="e#13921#14094#1" />
+            <element signature="e#14100#14432#1" />
+            <element signature="method#onCancelled#0;class#13700:14631" />
+            <element signature="class#14698:15945" />
+            <element signature="method#onClick#0;class#14698:15945" />
+            <element signature="e#14822#15879#0" />
+            <element signature="e#16332#17948#0" />
+            <element signature="class#16499:17876" />
+            <element signature="method#onChildAdded#0;class#16499:17876" />
+            <element signature="method#onChildChanged#0;class#16499:17876" />
+            <element signature="method#onChildRemoved#0;class#16499:17876" />
+            <element signature="method#onChildMoved#0;class#16499:17876" />
+            <element signature="method#onCancelled#0;class#16499:17876" />
+            <element signature="e#17954#18923#0" />
+            <element signature="class#18212:18914" />
+            <element signature="method#onDataChange#0;class#18212:18914" />
+            <element signature="e#18430#18736#1" />
+            <element signature="method#onCancelled#0;class#18212:18914" />
+            <element signature="e#18929#20191#0" />
+            <element signature="class#19126:20105" />
+            <element signature="method#onChildAdded#0;class#19126:20105" />
+            <element signature="method#onChildChanged#0;class#19126:20105" />
+            <element signature="method#onChildRemoved#0;class#19126:20105" />
+            <element signature="method#onChildMoved#0;class#19126:20105" />
+            <element signature="method#onCancelled#0;class#19126:20105" />
+            <element signature="e#20197#20988#0" />
+            <element signature="e#20327#20982#1" />
+            <element signature="e#20420#20971#1" />
+            <element signature="e#20786#20932#1" />
+            <element signature="e#20994#21862#0" />
+            <element signature="e#21101#21791#1" />
+            <element signature="class#21151:21778" />
+            <element signature="method#CallBack#0;class#21151:21778" />
+            <element signature="e#21356#21746#1" />
+            <element signature="e#21429#21603#1" />
+            <element signature="e#21868#24957#0" />
+            <element signature="class#22006:24948" />
+            <element signature="method#OnCallBack#0;class#22006:24948" />
+            <element signature="e#22195#23900#0" />
+            <element signature="e#24177#24422#1" />
+            <element signature="e#24782#24891#1" />
+            <element signature="e#24963#26473#0" />
+            <element signature="class#25264:26465" />
+            <element signature="method#OnCallBack#0;class#25264:26465" />
+            <element signature="e#25696#25941#1" />
+            <element signature="e#26299#26408#1" />
+            <element signature="e#26479#27958#0" />
+            <element signature="class#26750:27950" />
+            <element signature="method#OnCallBack#0;class#26750:27950" />
+            <element signature="e#27181#27426#1" />
+            <element signature="e#27784#27893#1" />
+            <element signature="e#27965#28722#0" />
+            <element signature="e#28119#28716#1" />
+            <element signature="e#28212#28705#1" />
+            <element signature="e#28312#28595#1" />
+            <element signature="e#28388#28503#1" />
+            <element signature="e#28729#30586#0" />
+            <element signature="e#28859#30526#0" />
+            <element signature="e#30592#31009#0" />
+            <element signature="class#30747:31000" />
+            <element signature="method#OnCallBack#0;class#30747:31000" />
+            <element signature="e#31015#31415#0" />
+            <element signature="class#31160:31407" />
+            <element signature="method#OnCallBack#0;class#31160:31407" />
+            <element signature="e#31422#31782#0" />
+            <element signature="e#31550#31751#1" />
+            <element signature="e#31699#31741#1" />
+            <element signature="e#31788#32084#0" />
+            <element signature="e#32595#34095#0" />
+            <element signature="e#32731#34089#1" />
+            <element signature="e#32781#34078#1" />
+            <element signature="e#32991#34064#1" />
+            <element signature="e#33169#33426#1" />
+            <element signature="e#33578#33606#0" />
+            <element signature="e#33929#34046#1" />
+            <element signature="e#34101#35600#0" />
+            <element signature="class#34548:35316" />
+            <element signature="method#onClick#0;class#34548:35316" />
+            <element signature="class#35367:35565" />
+            <element signature="method#onClick#0;class#35367:35565" />
+            <element signature="e#35648#36090#0" />
+            <element signature="e#35789#36084#1" />
+            <element signature="e#35960#36074#1" />
+            <element signature="e#36096#36617#0" />
+            <element signature="e#36231#36610#1" />
+            <element signature="e#36411#36600#1" />
+            <element signature="e#36623#37127#0" />
+            <element signature="e#36753#37120#1" />
+            <element signature="e#36927#37110#1" />
+            <element signature="e#37133#37289#0" />
+            <element signature="e#37295#37866#0" />
+            <element signature="e#37872#43503#0" />
+            <element signature="class#38105:43494" />
+            <element signature="method#OnCallBack#0;class#38105:43494" />
+            <element signature="e#38287#43468#0" />
+            <element signature="class#38750:39178" />
+            <element signature="method#OnCallBack#0;class#38750:39178" />
+            <element signature="class#39509:39932" />
+            <element signature="method#OnCallBack#0;class#39509:39932" />
+            <element signature="class#40497:40932" />
+            <element signature="method#OnCallBack#0;class#40497:40932" />
+            <element signature="class#41409:41848" />
+            <element signature="method#OnCallBack#0;class#41409:41848" />
+            <element signature="class#42337:42796" />
+            <element signature="method#OnCallBack#0;class#42337:42796" />
+            <element signature="e#43509#47152#0" />
+            <element signature="e#43718#47145#0" />
+            <element signature="class#43958:44306" />
+            <element signature="method#OnCallBack#0;class#43958:44306" />
+            <element signature="class#44594:44999" />
+            <element signature="method#OnCallBack#0;class#44594:44999" />
+            <element signature="class#45244:45601" />
+            <element signature="method#OnCallBack#0;class#45244:45601" />
+            <element signature="class#45816:46217" />
+            <element signature="method#OnCallBack#0;class#45816:46217" />
+            <element signature="class#46439:46842" />
+            <element signature="method#OnCallBack#0;class#46439:46842" />
+            <element signature="e#47158#47255#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/VideoCallScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="686" column="43" selection-start-line="686" selection-start-column="43" selection-end-line="686" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Notification/OreoNotification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="268" column="92" selection-start-line="268" selection-start-column="92" selection-end-line="268" selection-end-column="92" />
+          <folding>
+            <element signature="method#OreoNotification#0;class#OreoNotification#0" />
+            <element signature="e#3474#3535#1" />
+            <element signature="method#createChannel#0;class#OreoNotification#0" />
+            <element signature="method#getManager#0;class#OreoNotification#0" />
+            <element signature="method#getBaseBuilder#0;class#OreoNotification#0" />
+            <element signature="method#TypeAcceptFriendRequest#0;class#OreoNotification#0" />
+            <element signature="method#TypeNewFriendRequest#0;class#OreoNotification#0" />
+            <element signature="e#8516#9068#0" />
+            <element signature="method#TypeGroupMessage#0;class#OreoNotification#0" />
+            <element signature="method#TypeMessage#0;class#OreoNotification#0" />
+            <element signature="method#getPendingIntentLike#0;class#OreoNotification#0" />
+            <element signature="method#getPenddingIntentCall#0;class#OreoNotification#0" />
+            <element signature="method#getContentIntent#0;class#OreoNotification#0" />
+            <element signature="e#16023#16183#1" />
+            <element signature="e#16252#16361#1" />
+            <element signature="e#16367#16528#1" />
+            <element signature="method#getPendingIntentAcceptFriendRequest#0;class#OreoNotification#0" />
+            <element signature="method#getPendingIntentDenyFriendRequest#0;class#OreoNotification#0" />
+            <element signature="method#getPenddingIntentMute#0;class#OreoNotification#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Notification/NormalNotification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="240" selection-start-line="240" selection-end-line="240" />
+          <folding>
+            <element signature="method#NormalNotification#0;class#NormalNotification#0" />
+            <element signature="method#getManager#0;class#NormalNotification#0" />
+            <element signature="method#getBaseBuilder#0;class#NormalNotification#0" />
+            <element signature="method#TypeAcceptFriendRequest#0;class#NormalNotification#0" />
+            <element signature="method#TypeNewFriendRequest#0;class#NormalNotification#0" />
+            <element signature="e#7667#8217#0" />
+            <element signature="method#TypeGroupMessage#0;class#NormalNotification#0" />
+            <element signature="method#TypeMessage#0;class#NormalNotification#0" />
+            <element signature="method#getPendingIntentLike#0;class#NormalNotification#0" />
+            <element signature="method#getPenddingIntentCall#0;class#NormalNotification#0" />
+            <element signature="method#getContentIntent#0;class#NormalNotification#0" />
+            <element signature="e#15297#15457#1" />
+            <element signature="e#15526#15635#1" />
+            <element signature="e#15641#15802#1" />
+            <element signature="method#getPendingIntentAcceptFriendRequest#0;class#NormalNotification#0" />
+            <element signature="method#getPendingIntentDenyFriendRequest#0;class#NormalNotification#0" />
+            <element signature="method#getPendingIntentMute#0;class#NormalNotification#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="301" selection-start-line="301" selection-end-line="301" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
+          <folding>
+            <element signature="e#8020#8022#0" />
+            <element signature="e#9792#10144#1" />
+            <element signature="e#10157#11365#0" />
+            <element signature="class#11815:12619" />
+            <element signature="method#onPageScrolled#0;class#11815:12619" />
+            <element signature="method#onPageSelected#0;class#11815:12619" />
+            <element signature="e#12054#12499#0" />
+            <element signature="method#onPageScrollStateChanged#0;class#11815:12619" />
+            <element signature="e#12634#14244#0" />
+            <element signature="class#12712:13024" />
+            <element signature="method#onClick#0;class#12712:13024" />
+            <element signature="class#13070:13370" />
+            <element signature="method#onClick#0;class#13070:13370" />
+            <element signature="class#13416:13585" />
+            <element signature="class#13634:13803" />
+            <element signature="class#13852:14021" />
+            <element signature="class#14066:14235" />
+            <element signature="e#14250#15632#0" />
+            <element signature="class#14415:15563" />
+            <element signature="method#onChildAdded#0;class#14415:15563" />
+            <element signature="method#onChildChanged#0;class#14415:15563" />
+            <element signature="method#onChildRemoved#0;class#14415:15563" />
+            <element signature="method#onChildMoved#0;class#14415:15563" />
+            <element signature="method#onCancelled#0;class#14415:15563" />
+            <element signature="e#15639#18259#0" />
+            <element signature="class#15855:18172" />
+            <element signature="method#onChildAdded#0;class#15855:18172" />
+            <element signature="e#16356#16570#1" />
+            <element signature="method#onChildChanged#0;class#15855:18172" />
+            <element signature="e#16774#16988#1" />
+            <element signature="method#onChildRemoved#0;class#15855:18172" />
+            <element signature="e#17761#17900#1" />
+            <element signature="method#onChildMoved#0;class#15855:18172" />
+            <element signature="method#onCancelled#0;class#15855:18172" />
+            <element signature="e#18265#18453#0" />
+            <element signature="e#18459#20195#0" />
+            <element signature="e#18665#20187#0" />
+            <element signature="class#18829:19163" />
+            <element signature="method#OnCallBack#0;class#18829:19163" />
+            <element signature="e#20201#20902#0" />
+            <element signature="class#20424:20820" />
+            <element signature="method#onDataChange#0;class#20424:20820" />
+            <element signature="method#onCancelled#0;class#20424:20820" />
+            <element signature="e#20908#25852#0" />
+            <element signature="class#21061:25844" />
+            <element signature="method#onDataChange#0;class#21061:25844" />
+            <element signature="e#21265#25706#1" />
+            <element signature="class#21500:25686" />
+            <element signature="method#onDataChange#0;class#21500:25686" />
+            <element signature="e#21773#25448#1" />
+            <element signature="e#21954#23706#1" />
+            <element signature="e#22165#23663#1" />
+            <element signature="class#22854:23613" />
+            <element signature="method#onSuccess#0;class#22854:23613" />
+            <element signature="e#23766#25409#1" />
+            <element signature="e#23977#25365#1" />
+            <element signature="class#24597:25315" />
+            <element signature="method#onSuccess#0;class#24597:25315" />
+            <element signature="method#onCancelled#0;class#21500:25686" />
+            <element signature="method#onCancelled#0;class#21061:25844" />
+            <element signature="e#25947#26206#0" />
+            <element signature="e#26085#26199#1" />
+            <element signature="e#26212#27203#0" />
+            <element signature="class#26585:26920" />
+            <element signature="method#onClick#0;class#26585:26920" />
+            <element signature="class#26971:27169" />
+            <element signature="method#onClick#0;class#26971:27169" />
+            <element signature="e#27209#27447#0" />
+            <element signature="e#27453#27685#0" />
+            <element signature="e#27691#27923#0" />
+            <element signature="e#27929#28161#0" />
+            <element signature="e#28167#28450#0" />
+            <element signature="e#28456#28796#0" />
+            <element signature="e#28604#28790#1" />
+            <element signature="e#28802#29133#0" />
+            <element signature="e#28947#29127#1" />
+            <element signature="e#29139#29280#0" />
+            <element signature="e#29829#30021#0" />
+            <element signature="e#30027#30428#0" />
+            <element signature="e#31163#31439#0" />
+            <element signature="e#31308#31432#1" />
+            <element signature="e#31445#31636#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Activities/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1545">
+          <caret line="214" selection-start-line="214" selection-end-line="214" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/tranquoctrungcntt/uchat/Services/MyFirebaseMessaging.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-453">
+          <caret line="82" column="16" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
+          <folding>
+            <element signature="e#5386#10749#1" />
+            <element signature="e#5872#10730#0" />
+            <element signature="class#6537:7432" />
+            <element signature="method#OnCallBack#0;class#6537:7432" />
+            <element signature="e#6868#7352#1" />
+            <element signature="class#7794:8885" />
+            <element signature="method#OnCallBack#0;class#7794:8885" />
+            <element signature="e#8066#8805#1" />
+            <element signature="e#9008#9231#1" />
+            <element signature="e#9412#10708#1" />
+            <element signature="e#9609#10677#1" />
+            <element signature="class#9961:10641" />
+            <element signature="method#onDataChange#0;class#9961:10641" />
+            <element signature="method#onCancelled#0;class#9961:10641" />
+            <element signature="method#removeMessage#0;class#MyFirebaseMessaging#0" />
+            <element signature="class#11112:11716" />
+            <element signature="method#OnCallBack#0;class#11112:11716" />
+            <element signature="e#11324#11676#1" />
+            <element signature="class#11910:12547" />
+            <element signature="method#onDataChange#0;class#11910:12547" />
+            <element signature="e#12128#12367#1" />
+            <element signature="method#onCancelled#0;class#11910:12547" />
+            <element signature="method#connectToSinch#0;class#MyFirebaseMessaging#0" />
+            <element signature="class#12634:14580" />
+            <element signature="method#onServiceConnected#0;class#12634:14580" />
+            <element signature="e#12815#14259#1" />
+            <element signature="e#12981#14241#1" />
+            <element signature="e#13363#14218#1" />
+            <element signature="e#13426#14192#1" />
+            <element signature="e#13494#14045#1" />
+            <element signature="e#13566#13891#1" />
+            <element signature="method#onServiceDisconnected#0;class#12634:14580" />
+            <element signature="method#relayMessageData#0;class#12634:14580" />
+            <element signature="method#pushNotification#0;class#MyFirebaseMessaging#0" />
+            <element signature="method#markMessageIsReceived#0;class#MyFirebaseMessaging#0" />
+            <element signature="class#15048:16253" />
+            <element signature="method#OnCallBack#0;class#15048:16253" />
+            <element signature="e#15295#16229#1" />
+            <element signature="class#15695:16207" />
+            <element signature="method#onSuccess#0;class#15695:16207" />
+            <element signature="method#getAvatarBitmap#0;class#MyFirebaseMessaging#0" />
+            <element signature="e#16366#18203#0" />
+            <element signature="e#16429#16663#0" />
+            <element signature="e#16684#16805#0" />
+            <element signature="e#16888#17119#0" />
+            <element signature="e#17140#17289#0" />
+            <element signature="e#17374#17609#0" />
+            <element signature="e#17630#17779#0" />
+            <element signature="e#17847#18022#0" />
+            <element signature="e#18043#18192#0" />
+            <element signature="method#sendNotificationOreo#0;class#MyFirebaseMessaging#0" />
+            <element signature="class#18335:19740" />
+            <element signature="method#run#0;class#18335:19740" />
+            <element signature="method#sendNormalNotification#0;class#MyFirebaseMessaging#0" />
+            <element signature="class#19862:21287" />
+            <element signature="method#run#0;class#19862:21287" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

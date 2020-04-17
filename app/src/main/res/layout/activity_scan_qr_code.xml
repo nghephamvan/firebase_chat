@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".Activities.ScanQRCode">
+
+    <include layout="@layout/tv_no_internet" />
+
+    <FrameLayout
+        android:id="@+id/frame_scanner_camera"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/vertical_grey_line" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/light_grey"
+            android:text="TRỞ VỀ"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/normal_text_size"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

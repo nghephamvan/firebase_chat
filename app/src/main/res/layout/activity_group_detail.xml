@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".Activities.GroupDetailPage">
+
+    <include layout="@layout/normal_appbar_layout" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="20dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civ_group_avatar"
+                    android:layout_width="@dimen/avatar_giant"
+                    android:layout_height="@dimen/avatar_giant" />
+
+                <TextView
+                    android:id="@+id/tv_group_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center"
+                    android:text="Nhóm trò truyện"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/big_text_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_created_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center"
+                    android:text="Ngày tạo"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/small_text_size" />
+
+                <androidx.emoji.widget.EmojiAppCompatTextView
+                    android:id="@+id/tv_group_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:hint="Quản trị viên chưa cập nhật mô tả cho nhóm trò chuyện !"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/normal_text_size" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="Riêng tư"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/small_header_text_size"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/linear_unmute_notifications"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <FrameLayout
+                        android:layout_width="@dimen/standard_icon_width"
+                        android:layout_height="@dimen/standard_icon_width">
+
+                        <ImageView
+                            android:layout_width="@dimen/standard_icon_size"
+                            android:layout_height="@dimen/standard_icon_size"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_notification_color" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/linear_button_height"
+                        android:layout_weight="10"
+                        android:gravity="center_vertical"
+                        android:text="Cho phép thông báo"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/normal_text_size" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:id="@+id/switch_notifications"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="12dp"
+                        android:clickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_shared_media"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="@dimen/standard_icon_width"
+                        android:layout_height="@dimen/standard_icon_width">
+
+                        <ImageView
+                            android:layout_width="@dimen/standard_icon_size"
+                            android:layout_height="@dimen/standard_icon_size"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_pictures_color" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/linear_button_height"
+                        android:gravity="center_vertical"
+                        android:text="Xem ảnh chung"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/normal_text_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_search_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="@dimen/standard_icon_width"
+                        android:layout_height="@dimen/standard_icon_width">
+
+                        <ImageView
+                            android:layout_width="@dimen/standard_icon_size"
+                            android:layout_height="@dimen/standard_icon_size"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_search_message" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/linear_button_height"
+                        android:gravity="center_vertical"
+                        android:text="Tìm kiếm tin nhắn"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/normal_text_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_delete_instant_messages"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="@dimen/standard_icon_width"
+                        android:layout_height="@dimen/standard_icon_width">
+
+                        <ImageView
+                            android:layout_width="@dimen/standard_icon_size"
+                            android:layout_height="@dimen/standard_icon_size"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_trash_color" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/linear_button_height"
+                        android:gravity="center_vertical"
+                        android:text="Xóa tin nhắn cập nhật"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/normal_text_size" />
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="Nhóm"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/small_header_text_size"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/linear_censor_mode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <FrameLayout
+                        android:layout_width="@dimen/standard_icon_width"
+                        android:layout_height="@dimen/standard_icon_width">
+
+                        <ImageView
+                            android:id="@+id/img_censor_mode"
+                            android:layout_width="@dimen/standard_icon_size"
+                            android:layout_height="@dimen/standard_icon_size"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_shield_color" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/tv_censor_mode"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/linear_button_height"
+                        android:layout_weight="10"
+                        android:gravity="center_vertical"
+                        android:text="Kiểm duyệt khi thêm"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/normal_text_size" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:id="@+id/switch_censor_mode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="12dp"
+                        android:clickable="false" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_censor_member"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:gravity="center_vertical"
+
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="@dimen/standard_icon_width"
+                        android:layout_height="@dimen/standard_icon_width">
+
+                        <ImageView
+                            android:layout_width="@dimen/standard_icon_size"
+                            android:layout_height="@dimen/standard_icon_size"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_checklist_color" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/linear_button_height"
+                        android:gravity="center_vertical"
+                        android:text="Duyệt yêu cầu tham gia"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/normal_text_size" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_update_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:gravity="center_vertical"
+
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="@dimen/standard_icon_width"
+                        android:layout_height="@dimen/standard_icon_width">
+
+                        <ImageView
+                            android:layout_width="@dimen/standard_icon_size"
+                            android:layout_height="@dimen/standard_icon_size"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_update_group" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/linear_button_height"
+                        android:gravity="center_vertical"
+                        android:text="Cập nhật thông tin nhóm"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/normal_text_size" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_member_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="@dimen/standard_icon_width"
+                        android:layout_height="@dimen/standard_icon_width">
+
+                        <ImageView
+                            android:layout_width="@dimen/standard_icon_size"
+                            android:layout_height="@dimen/standard_icon_size"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_user_list" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/linear_button_height"
+                        android:gravity="center_vertical"
+                        android:text="Thành viên"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/normal_text_size" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/linear_leave_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="@dimen/standard_icon_width"
+                        android:layout_height="@dimen/standard_icon_width">
+
+                        <ImageView
+                            android:layout_width="@dimen/standard_icon_size"
+                            android:layout_height="@dimen/standard_icon_size"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_logout_color" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/linear_button_height"
+                        android:gravity="center_vertical"
+                        android:text="Rời nhóm"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+
+                        android:textSize="@dimen/normal_text_size" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

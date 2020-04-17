@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Uchat</string>
+    <string name="openwithchrome">Mở với chrome</string>
+    <string name="copylink">Sao chép liên kết</string>
+    <string name="copied">Đã sao chép liên kết</string>
+    <string name="refresh">Tải lại</string>
+    <string name="share">Chia sẻ</string>
+    <string name="button_sure_default">OK</string>
+    <string name="button_sure">OK(%1$d)</string>
+
+</resources>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/call_background_color"
+    android:orientation="vertical">
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tv_no_internet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="Không có kết nối internet"
+        android:textAllCaps="false"
+        android:textColor="@color/red"
+        android:textSize="@dimen/small_text_size"
+        android:visibility="gone" />
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        tools:context=".Activities.VideoCallScreen">
+
+
+        <FrameLayout
+            android:id="@+id/frame_user"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:id="@+id/frame_user_preview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/linear_pause"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civ_pause"
+                    android:layout_width="@dimen/avatar_giant"
+                    android:layout_height="@dimen/avatar_giant"
+                    android:src="@drawable/ic_default_user_avatar"
+                    app:civ_border_color="@color/white"
+                    app:civ_border_width="2dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="Người dùng tạm dừng video"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/normal_text_size"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_call_infor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="59dp"
+            android:layout_marginRight="35dp"
+            android:background="@null"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_anchor="@id/frame_user"
+            app:layout_anchorGravity="center">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/civ_avatar"
+                android:layout_width="@dimen/avatar_giant"
+                android:layout_height="@dimen/avatar_giant"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="2dp" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_call_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textColor="@color/light_grey"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/frame_my_preview"
+            android:layout_width="140dp"
+            android:layout_height="200dp"
+            android:visibility="gone"
+            app:layout_anchor="@id/frame_user"
+            app:layout_anchorGravity="top|right" />
+
+        <LinearLayout
+            android:id="@+id/linear_btns"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="35dp"
+            android:animateLayoutChanges="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            app:layout_anchor="@id/frame_user"
+            app:layout_anchorGravity="bottom">
+
+
+            <ImageView
+                android:id="@+id/img_switch_camera"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/call_icon_size"
+                android:layout_weight="1"
+                android:background="@null"
+                android:src="@drawable/ic_switch_camera_nonactive" />
+
+            <ImageView
+                android:id="@+id/img_pause_stream"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/call_icon_size"
+                android:layout_weight="1"
+                android:background="@null"
+                android:src="@drawable/ic_pause_video_unclickable"
+
+
+                />
+
+
+            <ImageView
+                android:id="@+id/img_mute_microphone"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/call_icon_size"
+                android:layout_weight="1"
+                android:background="@null"
+                android:src="@drawable/ic_mute_unclickable" />
+
+
+            <ImageView
+                android:id="@+id/img_hangup_call"
+
+                android:layout_width="0dp"
+
+                android:layout_height="@dimen/call_icon_size"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@null"
+                android:src="@drawable/ic_hangup_active" />
+        </LinearLayout>
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</LinearLayout>

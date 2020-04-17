@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:orientation="vertical">
+
+    <!--divider time-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_time_divider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/time_divider_bg"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:lines="1"
+            android:maxLines="1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="time divider"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/time_divider_text_size"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_send_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="3dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:lines="1"
+            android:linksClickable="true"
+            android:maxLines="1"
+            android:text="time divider"
+            android:textAllCaps="false"
+            android:textColor="@color/grey"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="3dp"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="Trần Quốc Trung"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/time_divider_text_size" />
+
+    <!--layout root-->
+
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/linear_message_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="0dp">
+
+        <LinearLayout
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginEnd="5dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/civ_avatar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="80dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <androidx.emoji.widget.EmojiAppCompatTextView
+                    android:id="@+id/tv_message_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:autoLink="all"
+                    android:background="@drawable/left_message_bg"
+                    android:focusable="false"
+                    android:gravity="center_vertical"
+                    android:padding="8dp"
+                    android:text="mess"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textColorLink="@color/black"
+                    android:textIsSelectable="true"
+                    android:textSize="@dimen/normal_text_size" />
+
+                <ImageView
+                    android:id="@+id/img_edited"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginStart="5dp"
+                    android:src="@drawable/ic_edited"
+
+                    />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/img_like"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_like"
+
+                />
+
+            <ImageView
+                android:id="@+id/img_sticker"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+
+            <FrameLayout
+                android:id="@+id/frame_single_media"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start">
+
+                <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/riv_single_picture"
+                    android:layout_width="164dp"
+                    android:layout_height="164dp"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    app:riv_corner_radius="10dp" />
+
+                <ImageView
+                    android:id="@+id/img_play_video"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_play_video_filled_white" />
+            </FrameLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_multiple_media"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:gravity="center"
+                android:scrollbars="none" />
+
+            <LinearLayout
+                android:id="@+id/linear_audio"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:background="@drawable/audio_message_bg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+
+                <FrameLayout
+                    android:id="@+id/frame_play_audio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp">
+
+                    <ImageView
+                        android:id="@+id/img_play_audio"
+                        android:layout_width="@dimen/standard_icon_size"
+                        android:layout_height="@dimen/standard_icon_size"
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:src="@drawable/ic_play_audio_filled_color" />
+
+                    <ProgressBar
+                        android:id="@+id/pb_preparing_audio"
+                        android:layout_width="@dimen/standard_icon_size"
+                        android:layout_height="@dimen/standard_icon_size"
+                        android:layout_gravity="center"
+                        android:indeterminate="true"
+                        android:padding="5dp"
+                        android:visibility="gone" />
+                </FrameLayout>
+
+
+                <ProgressBar
+                    android:id="@+id/pb_audio_player"
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="5dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:progressBackgroundTint="@color/grey"
+                    android:progressTint="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/tv_duration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center"
+                    android:text="00:00"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_removed_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@drawable/removed_message_bg"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Tin nhắn đã được thu hồi"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/normal_text_size"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/tv_message_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="3dp"
+                android:ellipsize="end"
+                android:lines="1"
+                android:maxLines="1"
+                android:text="Đang gửi"
+                android:textAllCaps="false"
+                android:textColor="@color/grey"
+                android:textSize="12sp"
+                android:visibility="gone" />
+
+        </LinearLayout>   <!--chứa message type-->
+
+
+    </LinearLayout>  <!--// chứa avatar-->
+
+    <TextView
+        android:id="@+id/tv_instant_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:paddingLeft="25dp"
+        android:paddingTop="7dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="7dp"
+        android:text=""
+        android:textColor="@color/grey"
+        android:textSize="@dimen/small_text_size" />
+
+    <TextView
+        android:id="@+id/tv_instant_message_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="15dp"
+        android:fontFamily="sans-serif-medium"
+        android:textAllCaps="false"
+        android:textColor="@color/grey"
+        android:textSize="12sp"
+        android:visibility="gone"
+
+        />
+
+    <LinearLayout
+        android:id="@+id/linear_message_viewer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="15dp"
+        android:animateLayoutChanges="true"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_message_viewer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_num_message_viewer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/time_divider_bg"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:text="+100"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tranquoctrungcntt.uchat">
+
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-permission-sdk-23 android:name="android.permission.VIBRATE" />
+    <uses-permission-sdk-23 android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission-sdk-23 android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission-sdk-23 android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission-sdk-23 android:name="android.permission.CAMERA" />
+    <uses-permission-sdk-23 android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission-sdk-23 android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".OtherClasses.MyApplication"
+        android:icon="@mipmap/app_logo"
+        android:label="@string/app_name"
+        android:logo="@mipmap/app_logo"
+        android:roundIcon="@mipmap/app_logo"
+        android:supportsRtl="true"
+        android:allowBackup="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".Activities.SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/SpashStyle"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Activities.Chat"
+            android:configChanges="keyboard|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".Activities.GroupChat"
+            android:configChanges="keyboard|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+
+        <activity
+            android:name=".Activities.UserProfile"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity
+            android:name=".Activities.AllUserFriend"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+
+        <activity
+            android:name=".Activities.SearchMessage"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|screenSize"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".Activities.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".Activities.ScanQRCode"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".Activities.MyQRCode"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity
+            android:name=".Activities.Login"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|screenSize"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".Activities.Register"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|screenSize"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".Activities.UpdateProfile"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|screenSize"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".Activities.SentFriendRequest"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".Activities.FriendRequest"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".Activities.Search"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|screenSize"
+            android:windowSoftInputMode="stateAlwaysVisible|adjustPan" />
+        <activity
+            android:name=".Activities.SearchHistory"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".Activities.SharedMedia"
+            android:configChanges="orientation|keyboardHidden|screenSize|screenLayout"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".Activities.VoiceIncomingCallScreen"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:showOnLockScreen="true"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".Activities.VoiceCallScreen"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:showOnLockScreen="true"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".Activities.VideoCallScreen"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:showOnLockScreen="true"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".Activities.VideoIncomingCallScreen"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:showOnLockScreen="true"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".Activities.BlockedUsers"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".Activities.ViewMedia"
+            android:configChanges="orientation|keyboardHidden|screenSize|screenLayout"
+            android:launchMode="singleTop"
+            android:screenOrientation="fullUser"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".Activities.CreateConversation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|screenSize"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".Activities.CreateGroup"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|screenSize"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".Activities.ForwardMessage"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|screenSize"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".Activities.ShareMyQRCode"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|screenSize"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name="com.thefinestartist.finestwebview.FinestWebViewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout"
+            android:screenOrientation="sensor"
+            android:launchMode="singleTop"
+            android:theme="@style/FinestWebViewTheme.Light" />
+        <activity
+            android:name=".Activities.MyProfile"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".Activities.GroupDetailPage"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".Activities.GroupMemberPage"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|screenSize"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".Activities.AddGroupMember"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|screenSize"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".Activities.CensorMember"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".Activities.UpdatePassword"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|screenSize"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".Activities.ResetPassword"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|screenSize"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".Activities.UpdateStatus"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|screenSize"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+
+        <activity
+            android:name=".Activities.NoGooglePlayService"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <service
+            android:name=".Services.DownloadService"
+            android:enabled="true"
+            android:exported="false"
+            android:label="Uchat Service" />
+        <service
+            android:name=".Services.SinchService"
+            android:enabled="true"
+            android:exported="false"
+            android:label="Uchat Service" />
+        <service
+            android:name=".Services.MyFirebaseMessaging"
+            android:enabled="true"
+            android:exported="false"
+            android:label="Uchat Service">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".Services.SendNotificationActionData"
+            android:enabled="true"
+            android:exported="false"
+            android:label="Uchat Service" />
+    </application>
+
+</manifest>
